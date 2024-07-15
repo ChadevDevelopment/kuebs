@@ -22,7 +22,7 @@ import { Spinner } from "../icons/icons";
 
 type FormInputs = z.infer<typeof ContactFormSchema>;
 
-export default function ContactForm() {
+export default function KontaktForm() {
   const [isPending, startTransition] = useTransition();
 
   const form = useForm<FormInputs>({
@@ -84,7 +84,22 @@ export default function ContactForm() {
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="dark:text-white">Name</FormLabel>
+                      <FormLabel className="dark:text-white">Vorname</FormLabel>
+                      <FormControl>
+                        <Input {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+              </div>
+              <div className="mb-6 w-full lg:w-1/2">
+                <FormField
+                  control={form.control}
+                  name="name"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel className="dark:text-white">Nachname</FormLabel>
                       <FormControl>
                         <Input {...field} />
                       </FormControl>

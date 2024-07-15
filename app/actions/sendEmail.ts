@@ -2,9 +2,9 @@
 
 import { z } from "zod";
 import { Resend } from "resend";
-import ContactFormEmail from "@/components/emails/contact-form-email";
-import { ContactFormSchema } from "@/lib/schema";
-import { getErrorMessage } from "@/lib/utils";
+import ContactFormEmail from "../../components/emails/contact-form-email";
+import { ContactFormSchema } from "../../lib/schema";
+import { getErrorMessage } from "../../lib/utils";
 import { renderAsync } from "@react-email/render";
 
 type FormInputs = z.infer<typeof ContactFormSchema>;

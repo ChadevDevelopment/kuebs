@@ -1,11 +1,11 @@
-import Header from "@/components/layout/header";
-import Footer from "@/components/layout/footer";
+import Header from "../../../components/Header/header";
+import Footer from "../../../components/Footer/footer";
 import type { Metadata } from "next";
-import SectionPageTitle from "@/components/sections/section-page-title";
-import SectionIconBoxes from "@/components/sections/section-icon-boxes";
-import SectionCTALayout4 from "@/components/sections/section-cta-layout-4";
-import SectionPromoVideo from "@/components/sections/section-promo-video";
-import SectionIconBoxesLayout3 from "@/components/sections/section-icon-boxes-layout-3";
+import SectionPageTitle from "../../../components/sections/section-page-title";
+import SectionIconBoxes from "../../../components/sections/section-icon-boxes";
+import SectionCTALayout4 from "../../../components/sections/section-cta-layout-4";
+import SectionPromoVideo from "../../../components/sections/section-promo-video";
+import SectionIconBoxesLayout3 from "../../../components/sections/section-icon-boxes-layout-3";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),

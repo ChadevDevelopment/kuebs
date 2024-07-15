@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import { ThemeProvider } from "./context/ThemeProvider";
+import { ThemeProvider } from "./provider/ThemeProvider";
 import { Toaster } from "sonner";
 import { siteConfig } from "./config/site";
 import BackToTop from "../components/ScrollToTop/back-to-top";

@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import SiteLogo from "../layout/site-logo";
 import { Email, Address } from "../icons/icons";
 import {
   NavigationMenu,
@@ -10,6 +9,7 @@ import {
 } from "../ui/navigation-menu";
 import { footerNav2 } from "../../app/config/site";
 import NewsletterFormLayout2 from "../forms/newsletter-form-layout-2";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -19,11 +19,12 @@ const Footer = () => {
           <div className="gap-10 space-y-5 md:grid md:grid-cols-12 md:space-y-0">
             <div className="col-span-3 self-center">
               <Link href="/" className="shrink-0">
-                <SiteLogo
+                <Image
+                  src=""
+                  alt=""
                   width={123}
                   height={39}
-                  lightClasses="dark:hidden"
-                  darkClasses="hidden dark:block"
+                  className="dark:hidden hidden dark:block"
                 />
               </Link>
             </div>
@@ -62,7 +63,7 @@ const Footer = () => {
                 <div key={item.title} className="col-span-3">
                   <h2 className="mb-4 text-sm">{item.title}</h2>
                   <NavigationMenu orientation="vertical">
-                    <NavigationMenuList className="flex-col items-start space-y-2">
+                    <NavigationMenuList className="flex-col items-start space-y-2"> 
                       {item.items.map((link) => (
                         <NavigationMenuItem
                           key={link.title}

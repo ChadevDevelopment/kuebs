@@ -3,7 +3,6 @@
 import * as React from "react";
 import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
-import SiteLogo from "../layout/site-logo";
 import { cn } from "../../lib/utils";
 import {
   Accordion,
@@ -11,8 +10,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "../ui/accordion";
-import { ScrollArea } from "../ui/scroll-area";
-import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
+import { ScrollArea } from "../Search/scroll-area";
+import { Sheet, SheetContent, SheetTrigger } from "../Search/sheet";
+import Image from "next/image";
 
 interface MobileNavProps {
   mainNavItems?: MainNavItem[];
@@ -69,11 +69,12 @@ export function MobileNav({
             className="mr-12 block shrink-0"
             onClick={() => setIsOpen(false)}
           >
-            <SiteLogo
+            <Image
+              src="/images/logo/logo.svg"
+              alt="logo"
               width={96}
               height={30}
-              lightClasses="dark:hidden"
-              darkClasses="hidden dark:block"
+              className="dark:hidden hidden dark:block"
             />
           </Link>
         </div>

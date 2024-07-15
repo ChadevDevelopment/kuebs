@@ -8,10 +8,10 @@ import {
   faXTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import SiteLogo from "./site-logo";
-import { ScrollArea } from "../ui/scroll-area";
-import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
+import { ScrollArea } from "../Search/scroll-area";
+import { Sheet, SheetContent, SheetTrigger } from "../Search/sheet";
 import { Phone, Email, Address } from "../icons/icons";
+import Image from "next/image";
 
 export function Offcanvas() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -35,12 +35,13 @@ export function Offcanvas() {
       <SheetContent side="right" className="pl-1 pr-0">
         <ScrollArea className="mb-4 mt-16 h-[calc(100vh-8rem)] px-16 pb-10">
           <div className="pl-1 pr-7">
-            <Link href="/" className="shrink-0">
-              <SiteLogo
+            <Link href="/" className="">
+              <Image
+                src="/images/logo/logo.svg"
+                alt="logo"
                 width={123}
                 height={39}
-                lightClasses="dark:hidden"
-                darkClasses="hidden dark:block"
+                className="dark:hidden dark:block hidden"
               />
             </Link>
             <p className="mb-8 mt-6">

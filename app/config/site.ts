@@ -26,11 +26,11 @@ export const mainNav = [
   {
     title: "Home",
     items: [
-      {
-        title: "Home Marketing",
-        href: "/",
-        items: [],
-      },
+      // {
+      //   title: "Home Marketing",
+      //   href: "/",
+      //   items: [],
+      // },
       // {
       //   title: "Home SEO Agency",
       //   href: "/seo-agency",
@@ -62,8 +62,8 @@ export const mainNav = [
         items: [],
       },
       {
-        title: "Contact",
-        href: "/contact",
+        title: "Kontakt",
+        href: "/kontakt",
         items: [],
       },
       {
@@ -109,98 +109,30 @@ export const mainNav = [
   },
 ] satisfies MainNavItem[];
 
-export const footerNav = [
-  {
-    title: "Resources",
-    items: [
-      {
-        title: "About",
-        href: "/about",
-        external: false,
-      },
-      {
-        title: "Services",
-        href: "/services",
-        external: false,
-      },
-      {
-        title: "Pricing",
-        href: "/pricing",
-        external: false,
-      },
-      {
-        title: "Blog",
-        href: "/posts",
-        external: false,
-      },
-      {
-        title: "Contact",
-        href: "/contact",
-        external: false,
-      },
-    ],
-  },
-  {
-    title: "Solutions",
-    items: [
-      {
-        title: "Marketing Strategy",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "Advertising",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "SMM",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "SEO",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "Google Ads",
-        href: "#",
-        external: false,
-      },
-    ],
-  },
-] satisfies FooterItem[];
-
 export const footerNav2 = [
   {
-    title: "Solutions",
+    title: "Navigation",
     items: [
       {
-        title: "SEO Marketing",
+        title: "Über uns",
         href: "#",
         external: false,
       },
       {
-        title: "Search engine optimization",
+        title: "Service",
         href: "#",
         external: false,
       },
       {
-        title: "Email marketing",
+        title: "Kontakt",
         href: "#",
         external: false,
       },
       {
-        title: "Social Media",
+        title: "Team",
         href: "#",
         external: false,
-      },
-      {
-        title: "Conversion rate optimization",
-        href: "#",
-        external: false,
-      },
+      }
     ],
   },
   {
@@ -227,30 +159,5 @@ export const footerNav2 = [
         external: false,
       },
     ],
-  },
-  {
-    title: "Company",
-    items: [
-      {
-        title: "About Company",
-        href: "/about",
-        external: false,
-      },
-      {
-        title: "Services & Pricing",
-        href: "/services",
-        external: false,
-      },
-      {
-        title: "SEO Blog & News",
-        href: "/posts",
-        external: false,
-      },
-      {
-        title: "Contact",
-        href: "/contact",
-        external: false,
-      },
-    ],
-  },
+  }
 ] satisfies FooterItem[];

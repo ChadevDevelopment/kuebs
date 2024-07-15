@@ -14,7 +14,7 @@ const SectionPageTitle = ({
   subtitleClasses,
 }: SectionPageTitleProps) => {
   return (
-    <section className="bg-muted pb-32 pt-48 dark:bg-slate-900">
+    <section className="bg-white pb-32 pt-40 dark:bg-slate-900">
       <div className="container">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className={cn("mb-6", titleClasses)}>{children}</h1>

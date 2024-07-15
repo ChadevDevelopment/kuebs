@@ -2,9 +2,9 @@
 
 import { z } from "zod";
 import { Resend } from "resend";
-import QuotationFormEmail from "@/components/emails/quotation-form-email";
-import { QuotationFormSchema } from "@/lib/schema";
-import { getErrorMessage } from "@/lib/utils";
+import QuotationFormEmail from "../../components/emails/quotation-form-email";
+import { QuotationFormSchema } from "../../lib/schema";
+import { getErrorMessage } from "../../lib/utils";
 import { renderAsync } from "@react-email/render";
 
 type FormInputs = z.infer<typeof QuotationFormSchema>;
