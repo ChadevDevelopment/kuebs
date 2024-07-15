@@ -1,5 +1,5 @@
-import Header from "../../../components/layout/header";
-import Footer from "../../../components/layout/footer";
+import Header from "../../../components/Header/header";
+import Footer from "../../../components/Footer/footer";
 import type { Metadata } from "next";
 import SectionPageTitle from "../../../components/sections/section-page-title";
 import SectionChecklist from "../../../components/sections/section-checklist";

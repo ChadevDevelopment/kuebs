@@ -1,6 +1,6 @@
 "use client";
 
-import TestimonialsSliderLayout2 from "../testimonials-slider-layout-2";
+import TestimonialsSliderLayout2 from "../Testimonials/testimonials-slider-layout-2";
 import { Pagination } from "swiper/modules";
 import SectionTitle from "./section-title";
 

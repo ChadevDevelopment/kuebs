@@ -1,5 +1,5 @@
-import Header from "../components/layout/header";
-import Footer from "../components/layout/footer";
+import Header from "../components/Header/header";
+import Footer from "../components/Footer/footer";
 import Image from "next/image";
 import { Button } from "../components/ui/button";
 
@@ -8,10 +8,10 @@ export default function NotFound() {
     <>
       <Header />
       <main className="relative">
-        <section className="mt-[4.5rem] bg-muted py-32 dark:bg-slate-900 lg:mt-[161px]">
+        <section className="mt-[4.5rem] bg-white py-32 dark:bg-slate-900 lg:mt-[161px]">
           <div className="container text-center">
             <Image
-              src="/not_found.png"
+              src="/images/not-found/404.png"
               width={340}
               height={340}
               alt="not found"

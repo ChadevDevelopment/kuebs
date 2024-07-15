@@ -8,7 +8,7 @@ import {
   FormField,
   FormItem,
   FormMessage,
-} from "../../components/ui/form";
+} from "../ui/form";
 import { Input } from "../ui/input";
 import { Spinner } from "../icons/icons";
 import { useTransition } from "react";

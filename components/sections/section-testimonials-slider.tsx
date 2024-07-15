@@ -1,6 +1,6 @@
 "use client";
 
-import TestimonialsSlider from "../testimonials-slider";
+import TestimonialsSlider from "../Testimonials/testimonials-slider";
 import { Navigation } from "swiper/modules";
 import SectionTitle from "./section-title";
 

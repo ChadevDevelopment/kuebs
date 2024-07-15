@@ -10,8 +10,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import SiteLogo from "./site-logo";
 import { ScrollArea } from "../ui/scroll-area";
-import { Sheet, SheetContent, SheetTrigger } from "../../components/ui/sheet";
-import { Phone, Email, Address } from "../../components/icons/icons";
+import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
+import { Phone, Email, Address } from "../icons/icons";
 
 export function Offcanvas() {
   const [isOpen, setIsOpen] = React.useState(false);

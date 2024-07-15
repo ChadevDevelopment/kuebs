@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { ScrollArea } from "../ui/scroll-area";
-import { Sheet, SheetContent, SheetTrigger } from "../../components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 import SearchForm from "../forms/search-form";
 
 export function SiteSearch() {

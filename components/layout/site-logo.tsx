@@ -17,14 +17,14 @@ export default function SiteLogo({
   return (
     <>
       <Image
-        src="/logo.svg"
+        src="images/logo/logo.svg"
         className={lightClasses}
         width={width}
         height={height}
         alt={siteConfig.name}
       />
       <Image
-        src="/logo_dark.svg"
+        src="images/logo/logo.svg"
         className={darkClasses}
         width={width}
         height={height}

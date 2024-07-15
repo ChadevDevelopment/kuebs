@@ -3,16 +3,16 @@
 import * as React from "react";
 import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
-import SiteLogo from "./site-logo";
+import SiteLogo from "../layout/site-logo";
 import { cn } from "../../lib/utils";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../../components/ui/accordion";
+} from "../ui/accordion";
 import { ScrollArea } from "../ui/scroll-area";
-import { Sheet, SheetContent, SheetTrigger } from "../../components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 
 interface MobileNavProps {
   mainNavItems?: MainNavItem[];

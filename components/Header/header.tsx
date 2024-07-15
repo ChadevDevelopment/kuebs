@@ -1,12 +1,15 @@
 "use client";
+
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import SiteLogo from "./site-logo";
-import MainNav from "./main-nav";
+import SiteLogo from "../layout/site-logo";
 import { DarkModeSwitch } from "../dark-mode-switch";
+import MainNav from "./main-nav";
 import { mainNav } from "../../app/config/site";
 import { cn } from "../../lib/utils";
 import { MobileNav } from "./mobile-nav";
+import { Offcanvas } from "../layout/offcanvas";
+import { SiteSearch } from "../layout/site-search";
 
 const Header = () => {
   const [stickyClass, setStickyClass] = useState("");
@@ -46,20 +49,14 @@ const Header = () => {
             />
           </Link>
 
-          <div className="relative flex w-full items-center justify-end lg:justify-start lg:bg-transparent">
+          <div className="relative flex w-full items-center justify-end lg:bg-transparent">
             <MainNav items={mainNav} />
-            <DarkModeSwitch />
-            <MobileNav mainNavItems={mainNav} />
-
-            <div className="hidden lg:ml-auto lg:inline-block">
-              <a
-                href="tel:63-995-3959"
-                className="inline-block rounded-md bg-gradient-to-l from-primary to-tertiary px-4 py-2.5 text-center font-bold text-white"
-              >
-                <span className="block text-xxs">Call us for Free</span>
-                <span className="text-md">63-995-3959</span>
-              </a>
+            <DarkModeSwitch className="mr-3" />
+            <SiteSearch />
+            <div className="hidden lg:flex">
+              <Offcanvas />
             </div>
+            <MobileNav mainNavItems={mainNav} triggerIcon="style-2" />
           </div>
         </div>
       </header>

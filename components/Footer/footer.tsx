@@ -1,17 +1,17 @@
 "use client";
 
 import Link from "next/link";
-import SiteLogo from "./site-logo";
+import SiteLogo from "../layout/site-logo";
 import { Email, Address } from "../icons/icons";
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
-} from "../../components/ui/navigation-menu";
+} from "../ui/navigation-menu";
 import { footerNav2 } from "../../app/config/site";
 import NewsletterFormLayout2 from "../forms/newsletter-form-layout-2";
 
-const FooterLayout2 = () => {
+const Footer = () => {
   return (
     <footer>
       <div className="py-9">
@@ -96,9 +96,9 @@ const FooterLayout2 = () => {
       <div className="border-t py-12">
         <div className="container text-center">
           <span className="text-xs">
-            © {new Date().getFullYear()} Kuebs Next.js, Made by{" "}
-            <a href="https://deothemes.com" className="hover:text-primary">
-              DeoThemes
+            © {new Date().getFullYear()} - Kuebs | {" "}
+            <a href="https://www.chadev.ch" className="hover:text-primary">
+              ChaDev
             </a>
           </span>
         </div>
@@ -107,4 +107,4 @@ const FooterLayout2 = () => {
   );
 };
 
-export default FooterLayout2;
+export default Footer;

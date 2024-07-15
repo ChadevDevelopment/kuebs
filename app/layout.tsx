@@ -4,7 +4,7 @@ import { Roboto } from "next/font/google";
 import { ThemeProvider } from "./context/ThemeProvider";
 import { Toaster } from "sonner";
 import { siteConfig } from "./config/site";
-import BackToTop from "../components/back-to-top";
+import BackToTop from "../components/ScrollToTop/back-to-top";
 
 const roboto = Roboto({
   subsets: ["latin"],

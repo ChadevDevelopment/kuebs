@@ -11,7 +11,7 @@ import {
   FormField,
   FormItem,
   FormMessage,
-} from "../../components/ui/form";
+} from "../ui/form";
 import { Input } from "../ui/input";
 import { useTransition } from "react";
 import { NewsletterFormSchema } from "../../lib/schema";
