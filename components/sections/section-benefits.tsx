@@ -16,14 +16,14 @@ const SectionBenefits = () => {
         <div className="flex flex-wrap items-center justify-between lg:flex-nowrap">
           <div className="relative z-[1] mb-10 lg:w-1/2">
             <Image
-              src="/circles_pattern.png"
+              src="/images/shape/circles_pattern.png"
               alt="circles pattern"
               width={640}
               height={561}
               className="absolute -z-[1] -translate-y-8 scale-110 dark:opacity-10"
             />
             <Image
-              src="/benefits_img_1.jpg"
+              src="/images/benefits_img_1.jpg"
               alt="benefits"
               width={540}
               height={540}
@@ -31,7 +31,7 @@ const SectionBenefits = () => {
             />
             <div className="absolute -right-10 top-1/4 w-1/2 animate-fly rounded-xl lg:w-auto">
               <Image
-                src="/benefits_img_2.jpg"
+                src="/images/benefits_img_2.jpg"
                 alt="benefits"
                 width={320}
                 height={320}

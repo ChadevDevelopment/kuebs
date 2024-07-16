@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { Email, Address } from "../icons/icons";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -9,7 +8,6 @@ import {
 } from "../ui/navigation-menu";
 import { footerNav2 } from "../../app/config/site";
 import NewsletterFormLayout2 from "../Forms/newsletter-form-layout-2";
-import Image from "next/image";
 
 const Footer = () => {
   return (

@@ -84,7 +84,7 @@ const FAQ = () => {
               }}
             >
               <Image
-                src="/circles_pattern_2.png"
+                src="/images/shape/circles_pattern_2.png"
                 alt="circles pattern"
                 width={526}
                 height={531}
