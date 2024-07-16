@@ -1,12 +1,12 @@
 "use client";
 
-import PostCard from "@/components/posts/post-card";
+import PostCard from "./post-card";
 import { useState, useEffect, useRef, useCallback } from "react";
 import useSWRInfinite from "swr/infinite";
 import { Skeleton } from "../ui/skeleton";
 import { Button } from "../ui/button";
 import { WP_REST_BASE_URL } from "../../app/config/site";
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 
 type PostListProps = {
   limit: number;

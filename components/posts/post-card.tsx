@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BookmarkIcon } from "@heroicons/react/24/outline";
-import { getDateDay, getDateMonth } from "@/lib/utils";
+import { getDateDay, getDateMonth } from "../../lib/utils";
 
 type Props = {
   post: Post;
