@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import QuotationForm from "../Forms/quotation-form";
+import QuotationForm from "../forms/quotation-form";
 
 const SectionQuotation = () => {
   return (

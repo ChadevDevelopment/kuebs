@@ -7,7 +7,7 @@ import {
   NavigationMenuList,
 } from "../ui/navigation-menu";
 import { footerNav2 } from "../../app/config/site";
-import NewsletterFormLayout2 from "../Forms/newsletter-form-layout-2";
+import NewsletterFormLayout2 from "../forms/newsletter-form-layout-2";
 
 const Footer = () => {
   return (
