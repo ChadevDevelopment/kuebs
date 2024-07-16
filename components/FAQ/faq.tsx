@@ -84,15 +84,15 @@ const FAQ = () => {
               }}
             >
               <Image
-                src="/images/shape/circles_pattern_2.png"
-                alt="circles pattern"
+                src="/images/faq/faq.jpg"
+                alt="faq"
                 width={526}
                 height={531}
-                className="absolute right-10 top-4 -z-[1] -translate-y-8 scale-110 dark:opacity-10"
+                className="absolute rounded-xl inset-0 dark:opacity-10"
               />
               {/* <div className="mt-12 md:flex md:space-x-8 lg:justify-end"> */}
                 {/* <Image
-                  src="/faq.jpg"
+                  src="/images/faq/faq.jpg"
                   alt="benefits"
                   width={320}
                   height={320}

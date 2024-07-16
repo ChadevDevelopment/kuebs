@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   description: "",
 };
 
-export default function ServicesPage() {
+export default function PrivatKundenPage() {
   return (
     <>
-      <SectionPageTitle subtitle="We offer a variety of services here to get you started and successfully suite every need using Kuebs. Choose the services that’s right for you.">
-        Services
+      <SectionPageTitle subtitle="Wir betreuen unsere Klienten in Sachen für Privatkunden">
+        Privatkunden
       </SectionPageTitle>
       <SectionIconBoxes />
     </>

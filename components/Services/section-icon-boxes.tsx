@@ -5,22 +5,64 @@ import IconBox from "../icon-box";
 export const iconBoxes = [
   {
     icon: "/images/icons/medical-research-6506_05214fe4-cb2e-4171-ac03-72168bf2981b.svg",
-    title: "Analytics and Research",
+    title: "Erstellung und Führung von Buchhaltungen",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
   },
   {
     icon: "/images/icons/edit-document-4191_913956ad-aac3-4d29-b4ef-061756334d24.svg",
-    title: "Copywriting",
+    title: "Führung der Personaladministration",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
   },
   {
     icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
-    title: "Sales growth",
+    title: "Erstellung von Lohnabrechnungen, Arbeitsverträgen, Deklarationen",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
   },
+  {
+    icon: "/images/icons/edit-document-4191_913956ad-aac3-4d29-b4ef-061756334d24.svg",
+    title: "MWST-Beratung",
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  },
+  {
+    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
+    title: "Revisionsarbeiten",
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  },
+  {
+    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
+    title: "Schuldensanierung, Betreibungs- und Konkursverfahren",
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  },
+  {
+    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
+    title: "Revisionsarbeiten",
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  },
+  {
+    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
+    title: "Allgemeine Unternehmensberatung",
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  },
+  {
+    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
+    title: "Gründung und Umwandlung von Gesellschaften",
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  },
+  {
+    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
+    title: "Liquidations- und Konkursverfahren",
+    description:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+  }
 ];
 
 const fadeInAnimationVariants = {
@@ -39,7 +81,7 @@ const fadeInAnimationVariants = {
 
 const SectionIconBoxes = ({ noTitle }: { noTitle?: boolean }) => {
   return (
-    <section className="py-16 lg:py-2">
+    <section className="py-16 lg:pt-2">
       <div className="container">
         {/* {!noTitle && (
           <div className="flex justify-center">

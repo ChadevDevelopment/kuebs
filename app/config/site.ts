@@ -23,63 +23,60 @@ export const siteConfig = {
 };
 
 export const mainNav = [
-  // {
-  //   title: "Home",
-  //   items: [
-  //     // {
-  //     //   title: "Home Marketing",
-  //     //   href: "/",
-  //     //   items: [],
-  //     // },
-  //     // {
-  //     //   title: "Home SEO Agency",
-  //     //   href: "/seo-agency",
-  //     //   items: [],
-  //     // },
-  //     // {
-  //     //   title: "Home Consulting",
-  //     //   href: "/consulting",
-  //     //   items: [],
-  //     // },
-  //   ],
-  // },
-  // {
-  //   title: "Pages",
-  //   items: [
-  //     {
-  //       title: "About",
-  //       href: "/about",
-  //       items: [],
-  //     },
-  //     {
-  //       title: "Services",
-  //       href: "/services",
-  //       items: [],
-  //     },
-  //     {
-  //       title: "Pricing",
-  //       href: "/pricing",
-  //       items: [],
-  //     },
-  //     {
-  //       title: "Kontakt",
-  //       href: "/kontakt",
-  //       items: [],
-  //     },
-  //     {
-  //       title: "404",
-  //       href: "/page-404",
-  //       items: [],
-  //     },
-  //   ],
-  // }
+// {
+//   title: "Pages",
+//   items: [
+//     {
+//       title: "About",
+//       href: "/about",
+//       items: [],
+//     },
+//     {
+//       title: "Services",
+//       href: "/services",
+//       items: [],
+//     },
+//     {
+//       title: "Pricing",
+//       href: "/pricing",
+//       items: [],
+//     },
+//     {
+//       title: "Kontakt",
+//       href: "/kontakt",
+//       items: [],
+//     },
+//     {
+//       title: "404",
+//       href: "/page-404",
+//       items: [],
+//     },
+//   ],
+// }
   {
     title: "Über uns",
     href: "/ueberuns"
   },
+  
   {
-    title: "Services",
-    href: "/services"
+    title: "Service",
+    items: [
+      {
+        title: "Privatkunden",
+        href: "/privatkunden",
+        items: [],
+      },
+      // {
+      //   title: "Home SEO Agency",
+      //   href: "/seo-agency",
+      //   items: [],
+      // },
+      // {
+      //   title: "Home Consulting",
+      //   href: "/consulting",
+      //   items: [],
+      // },
+    ]
   },
   {
     title: "Preise",

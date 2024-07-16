@@ -24,17 +24,16 @@ const Hero = () => {
           <div className="flex flex-wrap lg:flex-nowrap lg:items-center lg:justify-between lg:space-x-10">
             <div className="mb-12 lg:mb-0 lg:w-2/5">
               <h1 className="text-headings text-3xl md:text-4xl lg:text-5xl xl:text-7xl">
-                Boost the Growth{" "}
+                Herzlich Wilkommen{" "}
                 <span className="relative inline-block before:absolute before:bottom-3 before:-z-[1] before:h-2 before:w-full before:rounded-lg before:bg-gradient-to-l before:to-tertiary before:opacity-70">
-                  of Your Company
+                  bei ...
                 </span>
               </h1>
               <p className="mb-10 text-xl">
-                Focus on engaging, reusable content that decrease the cost per
-                leads.
+               Lorem ipsum dolor sit amet
               </p>
               <Button size="lg">
-                Get Started
+                Mehr erfahren
                 <ChevronRightIcon
                   width={20}
                   height={20}
