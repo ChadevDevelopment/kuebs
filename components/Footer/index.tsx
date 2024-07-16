@@ -8,13 +8,13 @@ import {
   NavigationMenuList,
 } from "../ui/navigation-menu";
 import { footerNav2 } from "../../app/config/site";
-import NewsletterFormLayout2 from "../forms/newsletter-form-layout-2";
+import NewsletterFormLayout2 from "../Forms/newsletter-form-layout-2";
 import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer>
-      <div className="py-9">
+      {/* <div className="py-9">
         <div className="container">
           <div className="gap-10 space-y-5 md:grid md:grid-cols-12 md:space-y-0">
             <div className="col-span-3 self-center">
@@ -54,10 +54,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="border-t pb-16 pt-12">
         <div className="container">
-          <div className="gap-10 space-y-10 md:grid md:grid-cols-12 md:space-y-0">
+          <div className="gap-15 space-y-12 md:grid md:grid-cols-9 md:space-y-0">
             {footerNav2 &&
               footerNav2.map((item, index) => (
                 <div key={item.title} className="col-span-3">

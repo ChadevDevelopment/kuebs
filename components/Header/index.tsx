@@ -9,7 +9,7 @@ import { mainNav } from "../../app/config/site";
 import { cn } from "../../lib/utils";
 import { MobileNav } from "./mobile-nav";
 import { Offcanvas } from "../layout/offcanvas";
-import { SiteSearch } from "../layout/site-search";
+import { SiteSearch } from "../Search/site-search";
 
 const Header = () => {
   const [stickyClass, setStickyClass] = useState("");
@@ -49,11 +49,13 @@ const Header = () => {
             />
           </Link>
 
-          <div className="relative flex w-full items-center justify-end lg:bg-transparent">
-            <MainNav items={mainNav} />
-            <DarkModeSwitch className="mr-3" />
-            <SiteSearch />
+          <div className="relative flex w-full items-center justify-end lg:justify-start lg:bg-transparent">
             <div className="hidden lg:flex">
+              <MainNav items={mainNav} />
+            </div>
+            <div className="relative flex w-full items-center justify-end lg:bg-transparent">
+              {/* <SiteSearch /> */}
+              <DarkModeSwitch className="mr-3" />
               <Offcanvas />
             </div>
             <MobileNav mainNavItems={mainNav} triggerIcon="style-2" />

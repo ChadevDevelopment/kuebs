@@ -5,10 +5,9 @@ import {
   Dialog,
   DialogContent,
   DialogHeader,
-  DialogTrigger,
+  // DialogTrigger,
 } from "../ui/dialog";
 import { AspectRatio } from "../ui/aspect-ratio";
-import { Play } from "../icons/icons";
 
 const SectionBenefits = () => {
   return (
@@ -39,20 +38,20 @@ const SectionBenefits = () => {
                 className="rounded-xl"
               />
               <Dialog>
-                <DialogTrigger className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-transform will-change-transform hover:scale-90">
+                {/* <DialogTrigger className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-transform will-change-transform hover:scale-90">
                   <Play />
-                </DialogTrigger>
+                </DialogTrigger> */}
                 <DialogContent className="max-w-5xl border-0 p-0">
                   <DialogHeader>
                     <AspectRatio
                       ratio={16 / 9}
                       className="overflow-hidden rounded-lg"
                     >
-                      <iframe
+                      {/* <iframe
                         className="h-full w-full"
                         src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
                         allow="autoplay"
-                      ></iframe>
+                      ></iframe> */}
                     </AspectRatio>
                   </DialogHeader>
                 </DialogContent>

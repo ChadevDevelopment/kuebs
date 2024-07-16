@@ -9,7 +9,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../ui/accordion";
+} from "../FAQ/accordion";
 import { ScrollArea } from "../Search/scroll-area";
 import { Sheet, SheetContent, SheetTrigger } from "../Search/sheet";
 import Image from "next/image";

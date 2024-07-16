@@ -1,4 +1,5 @@
 "use client";
+
 import { motion } from "framer-motion";
 
 import Image from "next/image";
@@ -7,7 +8,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../ui/accordion";
+} from "./accordion";
 
 const accordionItems = [
   {
@@ -27,7 +28,7 @@ const accordionItems = [
   },
 ];
 
-const SectionFAQ = () => {
+const FAQ = () => {
   return (
     <section className="relative overflow-hidden py-24 dark:bg-slate-900 lg:py-32">
       <div className="container">
@@ -89,15 +90,15 @@ const SectionFAQ = () => {
                 height={531}
                 className="absolute right-10 top-4 -z-[1] -translate-y-8 scale-110 dark:opacity-10"
               />
-              <div className="mt-12 md:flex md:space-x-8 lg:justify-end">
-                <Image
+              {/* <div className="mt-12 md:flex md:space-x-8 lg:justify-end"> */}
+                {/* <Image
                   src="/faq.jpg"
                   alt="benefits"
                   width={320}
                   height={320}
                   className="mb-8 inline-block rounded-xl"
-                />
-                <div className="relative mb-8 max-w-[13.125rem] self-end rounded-xl bg-white bg-gradient-to-b from-secondary/70 to-quaternary/70 p-8 shadow-lg">
+                /> */}
+                {/* <div className="relative mb-8 max-w-[13.125rem] self-end rounded-xl bg-white bg-gradient-to-b from-secondary/70 to-quaternary/70 p-8 shadow-lg">
                   <span className="mb-4 block text-base font-semibold text-white">
                     Individual Investors
                   </span>
@@ -108,8 +109,8 @@ const SectionFAQ = () => {
                     Sed do eiusmod tempor.
                   </span>
                 </div>
-              </div>
-              <div className="relative">
+              </div> */}
+              {/* <div className="relative">
                 <div className="relative mx-auto max-w-xs self-start rounded-xl bg-white bg-gradient-to-l from-primary/70 to-tertiary/70 p-8 shadow-lg">
                   <div className="absolute right-8 top-8 rounded-full bg-white p-3">
                     <svg
@@ -136,7 +137,7 @@ const SectionFAQ = () => {
                     </span>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </div>
@@ -145,4 +146,4 @@ const SectionFAQ = () => {
   );
 };
 
-export default SectionFAQ;
+export default FAQ;

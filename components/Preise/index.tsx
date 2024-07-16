@@ -34,7 +34,7 @@ export const pricingTables = [
   },
 ];
 
-const SectionPricingTables = () => {
+const Preise = () => {
   const handleClick = (index: number) => {
     console.log(index);
   };
@@ -93,4 +93,4 @@ const SectionPricingTables = () => {
   );
 };
 
-export default SectionPricingTables;
+export default Preise;

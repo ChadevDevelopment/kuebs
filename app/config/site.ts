@@ -23,90 +23,72 @@ export const siteConfig = {
 };
 
 export const mainNav = [
+  // {
+  //   title: "Home",
+  //   items: [
+  //     // {
+  //     //   title: "Home Marketing",
+  //     //   href: "/",
+  //     //   items: [],
+  //     // },
+  //     // {
+  //     //   title: "Home SEO Agency",
+  //     //   href: "/seo-agency",
+  //     //   items: [],
+  //     // },
+  //     // {
+  //     //   title: "Home Consulting",
+  //     //   href: "/consulting",
+  //     //   items: [],
+  //     // },
+  //   ],
+  // },
+  // {
+  //   title: "Pages",
+  //   items: [
+  //     {
+  //       title: "About",
+  //       href: "/about",
+  //       items: [],
+  //     },
+  //     {
+  //       title: "Services",
+  //       href: "/services",
+  //       items: [],
+  //     },
+  //     {
+  //       title: "Pricing",
+  //       href: "/pricing",
+  //       items: [],
+  //     },
+  //     {
+  //       title: "Kontakt",
+  //       href: "/kontakt",
+  //       items: [],
+  //     },
+  //     {
+  //       title: "404",
+  //       href: "/page-404",
+  //       items: [],
+  //     },
+  //   ],
+  // }
   {
-    title: "Home",
-    items: [
-      // {
-      //   title: "Home Marketing",
-      //   href: "/",
-      //   items: [],
-      // },
-      // {
-      //   title: "Home SEO Agency",
-      //   href: "/seo-agency",
-      //   items: [],
-      // },
-      // {
-      //   title: "Home Consulting",
-      //   href: "/consulting",
-      //   items: [],
-      // },
-    ],
+    title: "Über uns",
+    href: "/ueberuns"
   },
   {
-    title: "Pages",
-    items: [
-      {
-        title: "About",
-        href: "/about",
-        items: [],
-      },
-      {
-        title: "Services",
-        href: "/services",
-        items: [],
-      },
-      {
-        title: "Pricing",
-        href: "/pricing",
-        items: [],
-      },
-      {
-        title: "Kontakt",
-        href: "/kontakt",
-        items: [],
-      },
-      {
-        title: "404",
-        href: "/page-404",
-        items: [],
-      },
-    ],
+    title: "Services",
+    href: "/services"
   },
   {
-    title: "Projects",
-    items: [
-      {
-        title: "Projects Listing",
-        href: "/projects",
-        items: [],
-      },
-      {
-        title: "Single Project",
-        href: "/projects/rocking-the-rank-1-in-the-events-industry",
-        items: [],
-      },
-    ],
+    title: "Preise",
+    href: "/preise"
   },
   {
-    title: "Blog",
-    items: [
-      {
-        title: "Blog Listing",
-        href: "/posts",
-        items: [],
-      },
-      {
-        title: "Single Post",
-        href: "/posts/effective-marketing-for-start-ups",
-        items: [],
-      },
-    ],
-  },
-  {
-    title: "Docs",
-    href: "/docs",
-  },
+    title: "Kontakt",
+    href: "/kontakt"
+  }
 ] satisfies MainNavItem[];
 
 export const footerNav2 = [
@@ -130,31 +112,21 @@ export const footerNav2 = [
       },
       {
         title: "Team",
-        href: "#",
+        href: "/team",
         external: false,
       }
     ],
   },
   {
-    title: "Quick Links",
+    title: "Support",
     items: [
       {
-        title: "Marketing Strategy",
+        title: "Datenschutz",
         href: "#",
         external: false,
       },
       {
-        title: "Keyword Research Explained",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "Why SEO Matters",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "Google Ads",
+        title: "Impressum",
         href: "#",
         external: false,
       },

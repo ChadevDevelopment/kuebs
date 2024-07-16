@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import SectionTitle from "./section-title";
+import SectionTitle from "../sections/section-title";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -101,14 +101,14 @@ const fadeInAnimationVariants = {
   }),
 };
 
-const SectionTeam = () => {
+const Team = () => {
   return (
     <section className="py-16 lg:py-28">
       <div className="container">
         <SectionTitle
           subtitle="Kuebs strives to deliver the tools and support that helps companies grow with unparalleled success."
           sectionClasses="mx-auto max-w-xl text-center mb-12"
-          titleClasses="mb-3 text-center"
+          titleClasses="my-3 text-center"
           subtitleClasses="text-md font-medium"
         >
           Meet Our Experts
@@ -164,4 +164,4 @@ const SectionTeam = () => {
   );
 };
 
-export default SectionTeam;
+export default Team;

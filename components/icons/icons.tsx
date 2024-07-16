@@ -8,20 +8,20 @@ type IconProps = {
   height?: string;
 };
 
-const Play = ({ className, width = "68", height = "68" }: IconProps) => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={width}
-      height={height}
-      fill="none"
-      className={cn("shrink-0", className)}
-    >
-      <circle cx={34} cy={34} r={32.5} stroke="#fff" strokeWidth={3} />
-      <path fill="#fff" d="M29 25v20l17.778-10L29 25Z" />
-    </svg>
-  );
-};
+// const Play = ({ className, width = "68", height = "68" }: IconProps) => {
+//   return (
+//     <svg
+//       xmlns="http://www.w3.org/2000/svg"
+//       width={width}
+//       height={height}
+//       fill="none"
+//       className={cn("shrink-0", className)}
+//     >
+//       <circle cx={34} cy={34} r={32.5} stroke="#fff" strokeWidth={3} />
+//       <path fill="#fff" d="M29 25v20l17.778-10L29 25Z" />
+//     </svg>
+//   );
+// };
 
 const Phone = ({ className, width = "24", height = "24" }: IconProps) => {
   const patternId = useId();
@@ -118,4 +118,4 @@ const Spinner = (props: SVGProps<SVGSVGElement>) => {
   );
 };
 
-export { Spinner, Phone, Email, Address, Play };
+export { Spinner, Phone, Email, Address };
