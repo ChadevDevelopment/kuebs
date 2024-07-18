@@ -5,64 +5,58 @@ import IconBox from "../icon-box";
 
 export const iconBoxes = [
   {
-    icon: "/images/icons/medical-research-6506_05214fe4-cb2e-4171-ac03-72168bf2981b.svg",
+    icon: "/images/icons/icon3.svg",
     title: "Erstellung von Buchhaltungen",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    description: 
+      "Wir übernehmen die komplette Buchhaltung für Ihr Unternehmen, damit Sie sich auf Ihr Kerngeschäft konzentrieren können."
   },
   {
-    icon: "/images/icons/edit-document-4191_913956ad-aac3-4d29-b4ef-061756334d24.svg",
+    icon: "/images/icons/icon3.svg",
     title: "Führung der Personaladministration",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    description: 
+      "Wir kümmern uns um die Personaladministration, inklusive Einstellung und Verwaltung Ihrer Mitarbeiter."
   },
   {
-    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
-    title: "Lohnabrechnungen und Arbeitsverträge erstellen",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    icon: "/images/icons/icon3.svg",
+    title: "Lohn- und Vertragsverwaltung",
+    description: 
+    "Wir erstellen und verwalten Ihre Lohnabrechnungen und Arbeitsverträge effizient und zuverlässig."
   },
   {
-    icon: "/images/icons/edit-document-4191_913956ad-aac3-4d29-b4ef-061756334d24.svg",
+    icon: "/images/icons/icon3.svg",
     title: "MWST-Beratung",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    description: 
+      "Unsere Experten beraten Sie umfassend zu allen Fragen rund um die Mehrwertsteuer und unterstützen bei der Einhaltung der Vorschriften."
   },
   {
-    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
+    icon: "/images/icons/icon3.svg",
     title: "Revisionsarbeiten",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    description: 
+      "Wir führen gründliche Revisionsarbeiten durch, um die Korrektheit und Ordnungsmäßigkeit Ihrer Geschäftsunterlagen sicherzustellen."
   },
   {
-    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
-    title: "Schuldensanierung, Betreibungs- und Konkursverfahren",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    icon: "/images/icons/icon3.svg",
+    title: "Betreibungs- und Konkursverfahren",
+    description: 
+      "Wir unterstützen Sie professionell bei Betreibungs- und Konkursverfahren, um Ihre Interessen umfassend und effektiv zu wahren."
   },
   {
-    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
-    title: "Revisionsarbeiten",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-  },
-  {
-    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
+    icon: "/images/icons/icon3.svg",
     title: "Allgemeine Unternehmensberatung",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    description: 
+      "Unsere Beratung hilft Ihnen, strategische Entscheidungen zu treffen und Ihr Unternehmen erfolgreich zu führen."
   },
   {
-    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
+    icon: "/images/icons/icon3.svg",
     title: "Gründung von Gesellschaften",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    description: 
+      "Wir begleiten Sie bei der Gründung von Gesellschaften und sorgen für einen reibungslosen Ablauf des Prozesses."
   },
   {
-    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
+    icon: "/images/icons/icon3.svg",
     title: "Liquidations- und Konkursverfahren",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    description: 
+      "Wir bieten umfassende Unterstützung bei Liquidations- und Konkursverfahren, um eine geordnete Abwicklung zu gewährleisten."
   }
 ];
 

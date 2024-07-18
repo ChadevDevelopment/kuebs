@@ -17,13 +17,13 @@ export default function NotFound() {
               alt="not found"
               className="mb-12 inline-block"
             />
-            <h1 className="mb-4">Sorry We {`Can't`} Find That Page!</h1>
+            <h1 className="mb-4">Leider können wir diese Seite nicht finden!</h1>
             <p className="mb-12">
-              The page you are looking for was moved, removed, renamed or never
-              existed.
+              Die Seite, die Sie suchen, wurde verschoben, entfernt, umbenannt oder hat nie
+              existiert.
             </p>
             <Button size="lg" asChild>
-              <a href="/">Take me Home</a>
+              <a href="/">Zurück zur Homepage</a>
             </Button>
           </div>
         </section>

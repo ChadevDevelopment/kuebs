@@ -124,7 +124,7 @@ export const footerNav2 = [
       },
       {
         title: "Impressum",
-        href: "#",
+        href: "/impressum",
         external: false,
       },
     ],

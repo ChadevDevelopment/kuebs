@@ -1,5 +1,5 @@
 import Hero from "../../../components/Hero";
-import PopUp from "../../../components/Hero/popup";
+import Modal from "../../../components/Modal";
 import Ueberuns from "../../../components/Ueberuns";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
       <Hero />
       <Ueberuns />
       {/* <SectionIconBoxesLayout2 /> */}
-      <PopUp />
+      <Modal />
     </>
   );
 }

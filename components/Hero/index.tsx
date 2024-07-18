@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
+import Ueberuns from "../Ueberuns";
+import { Link } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -29,16 +31,18 @@ const Hero = () => {
                   bei ...
                 </span>
               </h1>
-              <p className="mb-10 text-xl">
-               Lorem ipsum dolor sit amet
+              <p className="mb-10 text-md">
+               Unsere Treuhandfirma steht Ihnen als vertrauensvoller Partner in allen steuerlichen, rechtlichen und finanziellen Angelegenheiten zur Seite. 
+               Mit langjähriger Erfahrung und einem tiefen Verständnis für die Bedürfnisse unserer Kunden bieten wir maßgeschneiderte Lösungen an.
               </p>
-              <Button size="lg">
-                Mehr erfahren
-                <ChevronRightIcon
-                  width={20}
-                  height={20}
-                  className="-mr-2 ml-4"
-                />
+              <Button size="lg" asChild>
+                <a href="/ueberuns">Mehr erfahren
+                  <ChevronRightIcon
+                    width={20}
+                    height={20}
+                    className="-mr-2 ml-4"
+                  />
+                </a>
               </Button>
             </div>
             {/* <div className="relative w-full text-center lg:w-1/2 lg:text-right">
@@ -64,11 +68,11 @@ const Hero = () => {
                 {/* </div> */}
               {/* </div> */}
               <Image
-                src="/images/hero/consulting_hero.png"
+                src="/images/hero/hero2.jpg"
                 width={600}
                 height={600}
                 alt="consulting hero"
-                className="inline-block"
+                className="inline-block rounded-xl"
               />
               {/* <div className="absolute right-[2%] top-1/3 animate-fly rounded-[4rem] bg-white p-4 pl-11 shadow-sm lg:-right-[5%]"> */}
                 {/* <div className="flex gap-4">

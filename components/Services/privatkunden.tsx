@@ -5,34 +5,34 @@ import IconBox from "../icon-box";
 
 export const iconBoxes = [
   {
-    icon: "/images/icons/medical-research-6506_05214fe4-cb2e-4171-ac03-72168bf2981b.svg",
+    icon: "/images/icons/icon3.svg",
     title: "Beratung, Erstellung und Optimierung der Steuererklärung",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    description: 
+      "Wir beraten Sie umfassend, erstellen und optimieren Ihre Steuererklärung, um Ihre Steuerlast zu minimieren."
   },
   {
-    icon: "/images/icons/edit-document-4191_913956ad-aac3-4d29-b4ef-061756334d24.svg",
+    icon: "/images/icons/icon3.svg",
     title: "Sämtliche Versicherungsangelegenheiten",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    description: 
+      "Wir übernehmen die Verwaltung und Optimierung Ihrer Versicherungen, um den bestmöglichen Schutz zu gewährleisten."
   },
   {
-    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
+    icon: "/images/icons/icon3.svg",
     title: "Arbeitsrecht, Mietrecht und Scheidungen: Rechtsfragen",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    description: 
+      "Wir beraten Sie in Fragen des Arbeitsrechts, Mietrechts und bei Scheidungen, um Ihre rechtlichen Interessen zu schützen."
   },
   {
-    icon: "/images/icons/edit-document-4191_913956ad-aac3-4d29-b4ef-061756334d24.svg",
-    title: "Administrative und juristische Angelegenheiten",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    icon: "/images/icons/icon3.svg",
+    title: "Administrative Angelegenheiten",
+    description: 
+      "Wir kümmern uns um alle administrativen Aufgaben, damit Sie sich auf Ihr Kerngeschäft konzentrieren können."
   },
   {
-    icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
-    title: "Schuldensanierung, Betreibungs- und Konkursverfahren",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    icon: "/images/icons/icon3.svg",
+    title: "Betreibungs- und Konkursverfahren",
+    description: 
+      "Wir unterstützen Sie professionell bei Betreibungs- und Konkursverfahren, um Ihre Interessen umfassend zu wahren."
   }
 ];
 

@@ -60,6 +60,7 @@ module.exports = {
         green: "#44d88d",
         border: "#E8ECED",
         input: "#E8ECED",
+        blue: "#333b69",
         ring: "hsl(222.2 84% 4.9%)",
         background: "#ffffff",
         foreground: "#333b69",

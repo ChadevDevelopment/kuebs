@@ -58,7 +58,9 @@ const Header = () => {
               <DarkModeSwitch className="mr-3" />
               <Offcanvas />
             </div>
-            <MobileNav mainNavItems={mainNav} triggerIcon="style-2" />
+            {/* <div className="">
+              <MobileNav mainNavItems={mainNav} triggerIcon="style-2" />
+            </div> */}
           </div>
         </div>
       </header>

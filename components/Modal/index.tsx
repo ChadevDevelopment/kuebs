@@ -5,37 +5,37 @@ import SectionTitle from "../sections/section-title";
 
 export const iconBoxes = [
   {
-    icon: "/images/icons/protection.svg",
+    icon: "/images/icons/icon2.svg",
     title: "Wir handeln proaktiv",
     description:
       "Wir informieren Sie proaktiv und frühzeitig über Herausforderungen, damit Sie optimal auf alle Entwicklungen reagieren können.",
   },
   {
-    icon: "/images/icons/protection.svg",
+    icon: "/images/icons/icon2.svg",
     title: "Sie sparen Kosten",
     description:
       "Unsere maßgeschneiderten Dienstleistungen für Vermögensverwalter sind bedarfsgerecht und deutlich kosteneffizienter als jede interne Lösung.",
   },
   {
-    icon: "/images/icons/protection.svg",
+    icon: "/images/icons/icon2.svg",
     title: "Wir kümmern uns darum für Sie",
     description:
       "Wir übernehmen vollständig Ihre Compliance-, Risk- und Legal-Angelegenheiten, damit Sie sich zu 100% auf Ihre Kunden konzentrieren können.",
   },
   {
-    icon: "/images/icons/protection.svg",
+    icon: "/images/icons/icon2.svg",
     title: "Wir sind unabhängig",
     description:
       "... ist ein unabhängiges Unternehmen. Wir achten und fördern Ihre Unabhängigkeit und Souveränität.",
   },
   {
-    icon: "/images/icons/protection.svg",
+    icon: "/images/icons/icon2.svg",
     title: "Wir kennen Ihr Geschäft",
     description:
       "Wir verstehen die Herausforderungen der Vermögensverwalter aus erster Hand und haben uns auf dieses Kundensegment spezialisiert.",
   },
   {
-    icon: "/images/icons/protection.svg",
+    icon: "/images/icons/icon2.svg",
     title: "Wir sind Ihr zuverlässiger Partner",
     description:
       "Unser Team steht Ihnen als verlässlicher und langfristiger Partner zur Seite, um Mehrwert zu schaffen und Wettbewerbsvorteile zu erzielen.",
@@ -56,7 +56,7 @@ const fadeInAnimationVariants = {
   }),
 };
 
-const PopUp = ({ noTitle }: { noTitle?: boolean }) => {
+const Modal = ({ noTitle }: { noTitle?: boolean }) => {
   return (
     <section className="pb-10 pt-16 lg:pb-20 lg:pt-24">
       <div className="container">
@@ -98,4 +98,4 @@ const PopUp = ({ noTitle }: { noTitle?: boolean }) => {
   );
 };
 
-export default PopUp;
+export default Modal;

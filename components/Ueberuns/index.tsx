@@ -15,24 +15,24 @@ const Ueberuns = () => {
       <div className="container">
         <div className="flex flex-wrap items-center justify-between lg:flex-nowrap">
           <div className="relative z-[1] mb-10 lg:w-1/2">
-            <Image
+            {/* <Image
               src="/images/shape/circles_pattern.png"
               alt="circles pattern"
               width={640}
               height={561}
               className="absolute -z-[1] -translate-y-8 scale-110 dark:opacity-10"
-            />
+            /> */}
             <Image
-              src="/images/benefits_img_1.jpg"
-              alt="benefits"
+              src="/images/ueberuns/u1.jpg"
+              alt="ueberuns"
               width={540}
               height={540}
               className="rounded-xl"
             />
             <div className="absolute -right-10 top-1/4 w-1/2 animate-fly rounded-xl lg:w-auto">
               <Image
-                src="/images/benefits_img_2.jpg"
-                alt="benefits"
+                src="/images/ueberuns/u2.jpg"
+                alt="ueberuns"
                 width={320}
                 height={320}
                 className="rounded-xl"
@@ -70,31 +70,24 @@ const Ueberuns = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                className="h-8 w-8 shrink-0 fill-green"
+                className="h-8 w-8 shrink-0 fill-blue"
               >
                 <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11.0026 16L6.75999 11.7574L8.17421 10.3431L11.0026 13.1716L16.6595 7.51472L18.0737 8.92893L11.0026 16Z"></path>
               </svg>
               <div>
                 <h3 className="mb-3 text-base">Team Management</h3>
-                <p className="text-base">
-                 
-                </p>
               </div>
             </div>
             <div className="flex space-x-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                className="h-8 w-8 shrink-0 fill-green"
+                className="h-8 w-8 shrink-0 fill-blue"
               >
                 <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11.0026 16L6.75999 11.7574L8.17421 10.3431L11.0026 13.1716L16.6595 7.51472L18.0737 8.92893L11.0026 16Z"></path>
               </svg>
               <div>
-                <h3 className="mb-3 text-base">Revenue-based payments</h3>
-                <p className="text-base">
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                  odit aut fugit sed quia.
-                </p>
+                <h3 className="mb-3 text-base">Faire Preise</h3>
               </div>
             </div>
           </div>

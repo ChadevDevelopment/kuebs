@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function GeschaeftsKundenPage() {
   return (
     <>
-      <SectionPageTitle subtitle="Wir betreuen unsere Klienten in Sachen für Privatkunden">
+      <SectionPageTitle subtitle="Wir betreuen unsere Klienten in Sachen für Geschäftskunden">
         Geschäftskunden
       </SectionPageTitle>
       <GeschaeftsKunden />
