@@ -1,11 +1,12 @@
 "use client";
+
 import { motion } from "framer-motion";
 import IconBox from "../icon-box";
 
 export const iconBoxes = [
   {
     icon: "/images/icons/medical-research-6506_05214fe4-cb2e-4171-ac03-72168bf2981b.svg",
-    title: "Erstellung und Führung von Buchhaltungen",
+    title: "Erstellung von Buchhaltungen",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
   },
@@ -17,7 +18,7 @@ export const iconBoxes = [
   },
   {
     icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
-    title: "Erstellung von Lohnabrechnungen, Arbeitsverträgen, Deklarationen",
+    title: "Lohnabrechnungen und Arbeitsverträge erstellen",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
   },
@@ -53,7 +54,7 @@ export const iconBoxes = [
   },
   {
     icon: "/images/icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
-    title: "Gründung und Umwandlung von Gesellschaften",
+    title: "Gründung von Gesellschaften",
     description:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
   },
@@ -79,7 +80,7 @@ const fadeInAnimationVariants = {
   }),
 };
 
-const SectionIconBoxes = ({ noTitle }: { noTitle?: boolean }) => {
+const GeschaeftsKunden = ({ noTitle }: { noTitle?: boolean }) => {
   return (
     <section className="py-16 lg:pt-2">
       <div className="container">
@@ -119,4 +120,4 @@ const SectionIconBoxes = ({ noTitle }: { noTitle?: boolean }) => {
   );
 };
 
-export default SectionIconBoxes;
+export default GeschaeftsKunden;

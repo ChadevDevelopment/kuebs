@@ -5,40 +5,40 @@ import SectionTitle from "../sections/section-title";
 
 export const iconBoxes = [
   {
-    icon: "/images/icons/deadline-5926_5778aee2-b372-4b21-94a1-c9fc06ac464c.svg",
-    title: "Fast Results",
+    icon: "/images/icons/protection.svg",
+    title: "Wir handeln proaktiv",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Wir informieren Sie proaktiv und frühzeitig über Herausforderungen, damit Sie optimal auf alle Entwicklungen reagieren können.",
   },
   {
-    icon: "/images/icons/medal-3141_6860a6ec-597a-49e1-a5d2-dd4b070acef3.svg",
-    title: "Award Winning Agency",
+    icon: "/images/icons/protection.svg",
+    title: "Sie sparen Kosten",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Unsere maßgeschneiderten Dienstleistungen für Vermögensverwalter sind bedarfsgerecht und deutlich kosteneffizienter als jede interne Lösung.",
   },
   {
-    icon: "/images/icons/medical-research-6506_05214fe4-cb2e-4171-ac03-72168bf2981b.svg",
-    title: "Competition Analysis",
+    icon: "/images/icons/protection.svg",
+    title: "Wir kümmern uns darum für Sie",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Wir übernehmen vollständig Ihre Compliance-, Risk- und Legal-Angelegenheiten, damit Sie sich zu 100% auf Ihre Kunden konzentrieren können.",
   },
   {
-    icon: "/images/icons/customer-support-4912_a5517329-a472-47b5-8155-d507da181405.svg",
-    title: "Friendly Customer Support",
+    icon: "/images/icons/protection.svg",
+    title: "Wir sind unabhängig",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "... ist ein unabhängiges Unternehmen. Wir achten und fördern Ihre Unabhängigkeit und Souveränität.",
   },
   {
-    icon: "/images/icons/pay-2643_cf4ecaa0-bcfb-4c2b-91e1-7353cb0dccdd.svg",
-    title: "100% Money Back Guarantee",
+    icon: "/images/icons/protection.svg",
+    title: "Wir kennen Ihr Geschäft",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Wir verstehen die Herausforderungen der Vermögensverwalter aus erster Hand und haben uns auf dieses Kundensegment spezialisiert.",
   },
   {
-    icon: "/images/icons/handshake-3124_670c4553-214a-4d06-830f-4d0855736c60.svg",
-    title: "Customer Loyalty",
+    icon: "/images/icons/protection.svg",
+    title: "Wir sind Ihr zuverlässiger Partner",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Unser Team steht Ihnen als verlässlicher und langfristiger Partner zur Seite, um Mehrwert zu schaffen und Wettbewerbsvorteile zu erzielen.",
   },
 ];
 
@@ -67,7 +67,7 @@ const PopUp = ({ noTitle }: { noTitle?: boolean }) => {
             titleClasses="mb-3 text-center"
             subtitleClasses="text-md font-medium"
           >
-            Top 6 reasons why we are the best
+            Sechs gute Gründe, um mit uns zusammenzuarbeiten
           </SectionTitle>
         )}
 
@@ -87,7 +87,7 @@ const PopUp = ({ noTitle }: { noTitle?: boolean }) => {
               >
                 <IconBox
                   iconBox={iconBox}
-                  className="py-7 text-center shadow-none before:hidden"
+                  className="py-7 shadow-none before:hidden"
                 />
               </motion.div>
             );

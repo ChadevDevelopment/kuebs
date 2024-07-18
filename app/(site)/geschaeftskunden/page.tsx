@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
 import SectionPageTitle from "../../../components/sections/section-page-title";
-import PrivatKunden from "../../../components/Services/privatkunden";
+import GeschaeftsKunden from "../../../components/Services/geschaetfskunden";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
-  title: "Services",
+  title: "",
   description: "",
 };
 
-export default function PrivatKundenPage() {
+export default function GeschaeftsKundenPage() {
   return (
     <>
       <SectionPageTitle subtitle="Wir betreuen unsere Klienten in Sachen für Privatkunden">
-        Privatkunden
+        Geschäftskunden
       </SectionPageTitle>
-      <PrivatKunden />
+      <GeschaeftsKunden />
     </>
   );
 }

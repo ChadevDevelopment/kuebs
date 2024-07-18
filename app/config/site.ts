@@ -62,15 +62,15 @@ export const mainNav = [
     title: "Service",
     items: [
       {
+        title: "Geschäftskunden",
+        href: "/geschaeftskunden",
+        items: [],
+      },
+      {
         title: "Privatkunden",
         href: "/privatkunden",
         items: [],
       },
-      // {
-      //   title: "Home SEO Agency",
-      //   href: "/seo-agency",
-      //   items: [],
-      // },
       // {
       //   title: "Home Consulting",
       //   href: "/consulting",

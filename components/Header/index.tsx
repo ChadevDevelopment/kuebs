@@ -9,7 +9,7 @@ import { mainNav } from "../../app/config/site";
 import { cn } from "../../lib/utils";
 import { MobileNav } from "./mobile-nav";
 import { Offcanvas } from "../layout/offcanvas";
-import { SiteSearch } from "../Search/site-search";
+// import { SiteSearch } from "../Search/site-search";
 
 const Header = () => {
   const [stickyClass, setStickyClass] = useState("");
