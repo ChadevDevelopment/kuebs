@@ -6,29 +6,29 @@ export const pricingTables = [
   {
     title: "Standard",
     currency: "",
-    price: "Free",
+    price: "Gratis",
     term: "",
-    description: "An entry tool for those who started. Forever free.",
+    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
     ctaText: "Start",
     featured: false,
   },
   {
     title: "Business",
-    currency: "$",
+    currency: "CHF",
     price: "19.99",
-    term: "/ month",
+    term: "/ monatlich",
     description:
-      "Perfect plan for professional designers and entrepreneur users.",
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
     ctaText: "Start",
     featured: true,
   },
   {
     title: "Premium",
-    currency: "$",
+    currency: "CHF",
     price: "29.99",
-    term: "/ month",
+    term: "/ monatlich",
     description:
-      "Lifetime plan for professional designers and entrepreneur users.",
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
     ctaText: "Start",
     featured: false,
   },
@@ -40,7 +40,7 @@ const Preise = () => {
   };
 
   return (
-    <section className="py-16 lg:py-24">
+    <section className="pt-1 pb-24 lg:pt-1 lg:pb-24">
       <div className="container">
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-10">
           {pricingTables.map(

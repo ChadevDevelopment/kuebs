@@ -45,8 +45,8 @@ export function Offcanvas() {
               />
             </Link>
             <p className="mb-8 mt-6">
-              Focus on engaging, reusable content that decrease the cost per
-              leads while helps you to increase profits.
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
             </p>
             <div className="mb-12 flex space-x-2">
               <a
@@ -61,14 +61,14 @@ export function Offcanvas() {
               >
                 <FontAwesomeIcon icon={faFacebook} width={15} />
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="mb-2 flex h-10 w-10 items-center justify-center rounded bg-[#cd201f] text-white transition-colors hover:bg-foreground hover:text-white"
               >
                 <FontAwesomeIcon icon={faYoutube} width={15} />
-              </a>
+              </a> */}
             </div>
-            <h2 className="text-sm">Contact</h2>
+            <h2 className="text-sm">Kontakt</h2>
             <ul className="space-y-5 text-sm">
               <li className="flex space-x-4">
                 <Phone />
@@ -91,7 +91,7 @@ export function Offcanvas() {
               <li className="flex space-x-4">
                 <Address />
                 <address className="-mt-px leading-6">
-                  8910 University Center Lane Suite 620 San Diego, CA 92102
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
                 </address>
               </li>
             </ul>

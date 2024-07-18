@@ -62,9 +62,8 @@ const Ueberuns = () => {
             <h2 className="max-w-sm">
               Ihre Vorteile bei Uns
             </h2>
-            <p className="mb-8 text-lg">
-              As you may already know, there are an infinite number of things
-              you can test on your site to help you increase sales.
+            <p className="mb-8 text-md">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.
             </p>
             <div className="mb-6 flex space-x-4">
               <svg
@@ -87,7 +86,19 @@ const Ueberuns = () => {
                 <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11.0026 16L6.75999 11.7574L8.17421 10.3431L11.0026 13.1716L16.6595 7.51472L18.0737 8.92893L11.0026 16Z"></path>
               </svg>
               <div>
-                <h3 className="mb-3 text-base">Faire Preise</h3>
+                <h3 className="mb-9 text-base">Faire Preise</h3>
+              </div>
+            </div>
+            <div className="mb-6 flex space-x-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                className="h-8 w-8 shrink-0 fill-blue"
+              >
+                <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11.0026 16L6.75999 11.7574L8.17421 10.3431L11.0026 13.1716L16.6595 7.51472L18.0737 8.92893L11.0026 16Z"></path>
+              </svg>
+              <div>
+                <h3 className="mb-3 text-base">Team Management</h3>
               </div>
             </div>
           </div>

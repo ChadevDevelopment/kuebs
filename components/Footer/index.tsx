@@ -82,10 +82,10 @@ const Footer = () => {
                 </div>
               ))}
             <div className="col-span-3">
-              <h2 className="mb-4 text-sm">Subscribe</h2>
+              <h2 className="mb-4 text-sm">Anmelden</h2>
               <p className="mb-6 text-sm">
-                Join the newsletter to get the daily tips and free stuffs
-                delivered directly to your inbox.
+                Melden Sie sich für den Newsletter an und erhalten Sie die täglichen Tipps 
+                direkt in Ihren Posteingang geliefert.
               </p>
               <NewsletterFormLayout2 />
             </div>

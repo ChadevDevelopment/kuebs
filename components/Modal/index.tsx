@@ -62,10 +62,10 @@ const Modal = ({ noTitle }: { noTitle?: boolean }) => {
       <div className="container">
         {!noTitle && (
           <SectionTitle
-            subtitle="We offer a variety of services here to get you started and successfully suite every need using Margin."
+            subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
             sectionClasses="mx-auto max-w-xl text-center mb-12"
             titleClasses="mb-3 text-center"
-            subtitleClasses="text-md font-medium"
+            subtitleClasses="text-md font-small"
           >
             Sechs gute Gründe, um mit uns zusammenzuarbeiten
           </SectionTitle>

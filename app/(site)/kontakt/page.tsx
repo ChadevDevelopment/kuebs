@@ -12,7 +12,7 @@ export default function KontaktPage() {
   return (
     <>
       <main className="relative">
-        <SectionPageTitle subtitle="Let’s have a dicussion about your business">
+        <SectionPageTitle subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr.">
           Kontakt
         </SectionPageTitle>
         <SectionKontaktForm/>

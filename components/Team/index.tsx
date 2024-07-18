@@ -15,10 +15,10 @@ import { cn } from "../../lib/utils";
 export const team = [
   {
     image: "/team/1.jpg",
-    name: "Philip Green",
+    name: "",
     position: "CEO",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
     socials: [
       {
         icon: faXTwitter,
@@ -39,16 +39,16 @@ export const team = [
   },
   {
     image: "/team/2.jpg",
-    name: "Mathias Shredinger",
-    position: "Email Marketer",
+    name: "",
+    position: "E-Mail Vermarkter",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
     socials: [
-      {
-        icon: faYoutube,
-        color: "bg-[#cd201f]",
-        url: "#",
-      },
+      // {
+      //   icon: faYoutube,
+      //   color: "bg-[#cd201f]",
+      //   url: "#",
+      // },
       {
         icon: faFacebook,
         color: "bg-[#324e8c]",
@@ -63,16 +63,16 @@ export const team = [
   },
   {
     image: "/team/3.jpg",
-    name: "Alexander Samokhin",
-    position: "Developer",
+    name: "",
+    position: "Manager",
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua..",
     socials: [
-      {
-        icon: faGithub,
-        color: "bg-[#333]",
-        url: "#",
-      },
+      // {
+      //   icon: faGithub,
+      //   color: "bg-[#333]",
+      //   url: "#",
+      // },
       {
         icon: faFacebook,
         color: "bg-[#324e8c]",
@@ -106,12 +106,12 @@ const Team = () => {
     <section className="py-16 lg:py-28">
       <div className="container">
         <SectionTitle
-          subtitle="Kuebs strives to deliver the tools and support that helps companies grow with unparalleled success."
+          subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
           sectionClasses="mx-auto max-w-xl text-center mb-12"
           titleClasses="my-3 text-center"
           subtitleClasses="text-md font-medium"
         >
-          Meet Our Experts
+          Treffen Sie unsere Fachleute
         </SectionTitle>
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
           {team.map((item, index) => (

@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 export default function PreisePage() {
   return (
     <>
-      <SectionPageTitle subtitle="Here are the best features that makes Kuebs the most powerful, fast and user-friendly platform.">
-        Price Transparency
+      <SectionPageTitle subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.">
+        Preistransparenz
       </SectionPageTitle>
       <Preise />
     </>

@@ -78,7 +78,7 @@ const NewsletterFormLayout2 = () => {
                   <Input
                     className="rounded-r-none dark:border-slate-600 dark:bg-transparent"
                     type="email"
-                    placeholder="Email"
+                    placeholder="E-Mail"
                     {...field}
                   />
                 </FormControl>

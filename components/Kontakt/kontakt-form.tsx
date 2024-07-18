@@ -56,13 +56,13 @@ export default function KontaktForm() {
         <ul className="mb-6 space-y-1 text-center text-sm">
           <li>
             <address className="-mt-px leading-6">
-              8910 University Center Lane Suite 620 San Diego, CA 92102
+              0000 Lorem ipsum dolor sit amet 000 Lorem Ipsum, LI 00000
             </address>
           </li>
           <li>
-            <span>Phone: </span>
-            <a href="tel:+1-800-1554-456-123" className="hover:text-primary">
-              + 1 (800) 155 4561
+            <span>Telefon: </span>
+            <a href="tel:+0 00 000 000" className="hover:text-primary">
+              +0 00 000 000
             </a>
           </li>
           <li>
@@ -131,10 +131,10 @@ export default function KontaktForm() {
                 name="message"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="dark:text-white">Message</FormLabel>
+                    <FormLabel className="dark:text-white">Nachricht</FormLabel>
                     <FormControl>
                       <Textarea
-                        placeholder="How can we help your business grow?"
+                        placeholder="Wie können wir Ihr Unternehmen unterstützen?"
                         rows={6}
                         {...field}
                       />
@@ -152,7 +152,7 @@ export default function KontaktForm() {
                   <span>Sending</span>
                 </>
               ) : (
-                <span>Send Message</span>
+                <span>Nachricht senden</span>
               )}
             </Button>
           </form>

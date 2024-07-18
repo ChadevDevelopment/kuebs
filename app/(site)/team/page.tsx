@@ -12,9 +12,7 @@ export const metadata: Metadata = {
 export default function TeamPage() {
   return (
     <>
-      <Header />
       <Team />
-      <Footer />
     </>
   );
 }
