@@ -7,7 +7,7 @@ import { Link } from "lucide-react";
 const Hero = () => {
   return (
     <div className="relative overflow-hidden bg-white dark:bg-transparent">
-      <Image
+      {/* <Image
         src="/images/hero/gradient_creative.png"
         className="dark:hidden"
         fill
@@ -20,7 +20,7 @@ const Hero = () => {
         className="hidden dark:block"
         fill
         alt="consulting hero gradient"
-      />
+      /> */}
       <section className="pb-16 pt-28 md:pt-32 lg:pb-40 lg:pt-36">
         <div className="container relative z-10">
           <div className="flex flex-wrap lg:flex-nowrap lg:items-center lg:justify-between lg:space-x-10">
