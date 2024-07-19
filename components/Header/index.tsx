@@ -50,17 +50,16 @@ const Header = () => {
           </Link>
 
           <div className="relative flex w-full items-center justify-end lg:justify-start lg:bg-transparent">
-            <div className="hidden lg:flex">
-              <MainNav items={mainNav} />
-            </div>
             <div className="relative flex w-full items-center justify-end lg:bg-transparent">
-              {/* <SiteSearch /> */}
-              <DarkModeSwitch className="mr-3" />
-              <Offcanvas />
+              <MainNav items={mainNav} />
+              <div className="relative flex w-full items-center justify-end lg:bg-transparent">
+                <DarkModeSwitch className="mr-3" />
+                <MobileNav mainNavItems={mainNav} triggerIcon="style-2" />
+              </div>
+              <div className="hidden lg:flex">
+                <Offcanvas />
+              </div>
             </div>
-            {/* <div className="">
-              <MobileNav mainNavItems={mainNav} triggerIcon="style-2" />
-            </div> */}
           </div>
         </div>
       </header>

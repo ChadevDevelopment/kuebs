@@ -72,7 +72,7 @@ const Hero = () => {
                 width={600}
                 height={600}
                 alt="consulting hero"
-                className="inline-block rounded-xl"
+                className="inline-block hidden md:block rounded-xl"
               />
               {/* <div className="absolute right-[2%] top-1/3 animate-fly rounded-[4rem] bg-white p-4 pl-11 shadow-sm lg:-right-[5%]"> */}
                 {/* <div className="flex gap-4">

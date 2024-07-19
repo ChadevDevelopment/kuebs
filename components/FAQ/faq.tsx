@@ -12,25 +12,25 @@ import {
 
 const accordionItems = [
   {
-    title: "What is tax and legal advisory?",
+    title: "Lorem ipsum dolor sit amet?",
     content:
-      "The most comprehensive complete-system warranty in the solar industry. Hassle-free replacement, repair or reimbursement. Comprehensive complete-system warranty in the solar industry",
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
   },
   {
-    title: "Technical team of enthusiastic?",
+    title: "Lorem ipsum dolor sit amet?",
     content:
-      "The most comprehensive complete-system warranty in the solar industry. Hassle-free replacement, repair or reimbursement. Comprehensive complete-system warranty in the solar industry",
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
   },
   {
-    title: "Do you give guarantee and after sales service?",
+    title: "Lorem ipsum dolor sit amet?",
     content:
-      "The most comprehensive complete-system warranty in the solar industry. Hassle-free replacement, repair or reimbursement. Comprehensive complete-system warranty in the solar industry",
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
   },
 ];
 
 const FAQ = () => {
   return (
-    <section className="relative overflow-hidden py-24 dark:bg-slate-900 lg:py-32">
+    <section className="relative overflow-hidden bg-gradient-to-b from-[#EBE4FA]/25 to-muted/25 py-24 dark:bg-slate-900 lg:py-32">
       <div className="container">
         <div className="flex flex-wrap items-center justify-between lg:flex-nowrap">
           <div className="lg:w-[45%] lg:pr-10">
@@ -42,10 +42,9 @@ const FAQ = () => {
                 delay: 0.5,
               }}
             >
-              <h2>Frequently Asked Questions</h2>
+              <h2>Häufig gestellte Fragen</h2>
               <p className="mb-8 text-lg">
-                The most comprehensive complete-system warranty in the solar
-                industry. Hassle-free replacement, repair or reimbursement.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr
               </p>
               <Accordion
                 type="multiple"
@@ -66,7 +65,7 @@ const FAQ = () => {
                 ))}
               </Accordion>
               <span className="mt-14 inline-block text-lg">
-                Any Question?{" "}
+                Haben Sie Fragen?{" "}
                 <a href="mailto:support@kuebs.com" className="text-primary">
                   support@kuebs.com
                 </a>

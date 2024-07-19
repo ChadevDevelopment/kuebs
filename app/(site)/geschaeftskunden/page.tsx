@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import SectionPageTitle from "../../../components/sections/section-page-title";
-import GeschaeftsKunden from "../../../components/Services/geschaetfskunden";
+import GeschaeftsKunden from "../../../components/Dienstleistungen/geschaetfskunden";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),

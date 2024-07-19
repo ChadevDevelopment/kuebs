@@ -1,6 +1,7 @@
+import FAQ from "../../../components/FAQ/faq";
 import Hero from "../../../components/Hero";
-import Modal from "../../../components/Modal";
 import Ueberuns from "../../../components/Ueberuns";
+import Vorteile from "../../../components/Vorteile";
 
 export default function Home() {
   return (
@@ -8,7 +9,8 @@ export default function Home() {
       <Hero />
       <Ueberuns />
       {/* <SectionIconBoxesLayout2 /> */}
-      <Modal />
+      <FAQ />
+      <Vorteile />
     </>
   );
 }

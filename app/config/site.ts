@@ -59,7 +59,7 @@ export const mainNav = [
   },
   
   {
-    title: "Service",
+    title: "Dienstleistungen",
     items: [
       {
         title: "Geschäftskunden",
@@ -94,17 +94,17 @@ export const footerNav2 = [
     items: [
       {
         title: "Über uns",
-        href: "#",
+        href: "/ueberuns",
         external: false,
       },
       {
-        title: "Service",
-        href: "#",
+        title: "Dienstleistungen",
+        href: "/dienstleistungen",
         external: false,
       },
       {
         title: "Kontakt",
-        href: "#",
+        href: "/kontakt",
         external: false,
       },
       {

@@ -55,7 +55,7 @@ const UeberUnsDetails = () => {
               alt="ueberuns"
               width={540}
               height={540}
-              className="rounded-xl"
+              className="rounded-xl hidden md:block"
             />
             <div className="absolute -right-10 top-1/4 w-1/2 animate-fly rounded-xl lg:w-auto">
               <Dialog>
@@ -72,11 +72,11 @@ const UeberUnsDetails = () => {
             </div>
           </div>
           <div className="w-full lg:w-[54%] lg:pr-20">
-            <p className="mb-10 pl-12">
+            <p className="mb-10 md:pl-12">
              In rechtlichen Angelegenheiten wie Betreibungs- und Konkursverfahren stehen wir Ihnen als kompetenter Partner zur Seite, um Ihre Interessen bestmöglich zu vertreten. 
              Unsere allgemeine Unternehmensberatung unterstützt Sie bei strategischen Entscheidungen und der erfolgreichen Gründung von Gesellschaften.
             </p>
-            <p className="mb-10 pl-12">
+            <p className="mb-10 md:pl-12">
              Bei Fragen des Arbeitsrechts, Mietrechts und bei Scheidungen bieten wir Ihnen ebenfalls fundierte rechtliche Beratung. 
              Unser engagiertes Team aus erfahrenen Experten kümmert sich um alle administrativen Angelegenheiten, damit Sie sich ganz auf Ihr Kerngeschäft konzentrieren können. <br /> <br />
 

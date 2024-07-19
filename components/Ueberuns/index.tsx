@@ -35,7 +35,7 @@ const Ueberuns = () => {
                 alt="ueberuns"
                 width={320}
                 height={320}
-                className="rounded-xl"
+                className="rounded-xl hidden md:block"
               />
               <Dialog>
                 {/* <DialogTrigger className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-transform will-change-transform hover:scale-90">

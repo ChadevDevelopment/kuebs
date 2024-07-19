@@ -97,7 +97,7 @@ const Footer = () => {
           <span className="text-xs">
             © {new Date().getFullYear()} - Kuebs | {" "}
             <a href="https://www.chadev.ch" className="hover:text-primary">
-              ChaDev
+              chadev.ch
             </a>
           </span>
         </div>
