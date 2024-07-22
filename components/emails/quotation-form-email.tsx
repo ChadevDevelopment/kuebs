@@ -12,7 +12,7 @@ import {
   Tailwind,
   Text,
 } from "@react-email/components";
-import { siteConfig } from "../../app/config/site";
+import { siteConfig } from "../../config/site";
 
 type FormInputs = z.infer<typeof QuotationFormSchema>;
 

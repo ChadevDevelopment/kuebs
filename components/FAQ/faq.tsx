@@ -30,7 +30,7 @@ const accordionItems = [
 
 const FAQ = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-[#EBE4FA]/25 to-muted/25 py-24 dark:bg-slate-900 lg:py-32">
+    <section className="relative overflow-hidden dark:bg-transparent py-24 dark:bg-slate-900 lg:py-32">
       <div className="container">
         <div className="flex flex-wrap items-center justify-between lg:flex-nowrap">
           <div className="lg:w-[45%] lg:pr-10">
@@ -87,7 +87,7 @@ const FAQ = () => {
                 alt="faq"
                 width={526}
                 height={531}
-                className="absolute rounded-xl inset-0 dark:opacity-10"
+                className="inline-block items-center hidden md:block rounded-xl ml-20"
               />
               {/* <div className="mt-12 md:flex md:space-x-8 lg:justify-end"> */}
                 {/* <Image

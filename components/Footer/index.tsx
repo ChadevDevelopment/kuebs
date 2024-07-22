@@ -6,7 +6,7 @@ import {
   NavigationMenuItem,
   NavigationMenuList,
 } from "../ui/navigation-menu";
-import { footerNav2 } from "../../app/config/site";
+import { footerNav2 } from "../../config/site";
 import NewsletterFormLayout2 from "../forms/newsletter-form-layout-2";
 
 const Footer = () => {

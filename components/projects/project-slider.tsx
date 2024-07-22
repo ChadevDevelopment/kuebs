@@ -5,7 +5,7 @@ import ProjectCard from "./project-card";
 import { useState, useEffect, useRef, useCallback } from "react";
 import useSWRInfinite from "swr/infinite";
 import { Skeleton } from "../ui/skeleton";
-import { WP_REST_BASE_URL } from "../../app/config/site";
+import { WP_REST_BASE_URL } from "../../config/site";
 
 type ProjectSliderProps = {
   limit: number;

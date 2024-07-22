@@ -15,7 +15,7 @@ const Dienstleistungen = () => {
                 alt=""
                 width={540}
                 height={540}
-                className="h-4/4 rounded-lg w-full"
+                className="h-4/4 rounded-lg hidden md:block w-full"
               />
           </div>
 
@@ -99,7 +99,7 @@ const Dienstleistungen = () => {
                 alt=""
                 width={540}
                 height={540}
-                className="ml-16 h-4/4 rounded-lg w-full overflow-hidden"
+                className="ml-16 h-4/4 rounded-lg w-full hidden md:block overflow-hidden"
               />
           </div>
         </div>

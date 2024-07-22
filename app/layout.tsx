@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import { ThemeProvider } from "./provider/ThemeProvider";
 import { Toaster } from "sonner";
-import { siteConfig } from "./config/site";
+import { siteConfig } from "../config/site";
 import BackToTop from "../components/ScrollToTop/back-to-top";
 
 const roboto = Roboto({

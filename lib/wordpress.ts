@@ -1,4 +1,4 @@
-import { WP_REST_BASE_URL } from "../app/config/site";
+import { WP_REST_BASE_URL } from "../config/site";
 
 export async function getPosts(limit?: string, page?: string, type?: string) {
   const queryParams = new URLSearchParams({

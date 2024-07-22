@@ -10,7 +10,7 @@ import { AspectRatio } from "../ui/aspect-ratio";
 const UeberUnsDetails = () => {
   
   return (
-    <section className="bg-muted py-16 dark:bg-slate-900 lg:py-24">
+    <section className="py-16 dark:bg-slate-900 lg:py-24">
       <div className="container">
         <div className="flex flex-wrap items-center lg:flex-nowrap lg:space-x-16 pt-20">
           <div className="w-full lg:w-[54%] lg:pr-20">

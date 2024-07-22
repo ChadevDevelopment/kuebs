@@ -5,7 +5,7 @@ import Link from "next/link";
 import SiteLogo from "../layout/site-logo";
 import { DarkModeSwitch } from "../dark-mode-switch";
 import MainNav from "./main-nav";
-import { mainNav } from "../../app/config/site";
+import { mainNav } from "../../config/site";
 import { cn } from "../../lib/utils";
 import { MobileNav } from "./mobile-nav";
 import { Offcanvas } from "../layout/offcanvas";

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { siteConfig } from "../../app/config/site";
+import { siteConfig } from "../../config/site";
 
 type SiteLogoProps = {
   width: number;
