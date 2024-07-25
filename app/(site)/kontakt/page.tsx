@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import SectionPageTitle from "../../../components/sections/section-page-title";
-import SectionKontaktForm from "../../../components/Kontakt/section-kontakt-form";
+// import SectionPageTitle from "../../../components/sections/section-page-title";
+import Kontaktform from "../../../components/Kontakt/kontaktform";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
@@ -12,10 +12,10 @@ export default function KontaktPage() {
   return (
     <>
       <main className="relative">
-        <SectionPageTitle subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr.">
+        {/* <SectionPageTitle subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr.">
           Kontakt
-        </SectionPageTitle>
-        <SectionKontaktForm/>
+        </SectionPageTitle> */}
+        <Kontaktform/>
       </main>
     </>
   );

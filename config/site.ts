@@ -1,22 +1,22 @@
 export type SiteConfig = typeof siteConfig;
 
 export const WP_REST_BASE_URL =
-  "https://wordpress-597675-3975829.cloudwaysapps.com/wp-json/wp/v2";
+  "";
 
 export const siteConfig = {
   name: "Kuebs",
   description:
-    "Kuebs is the Next.js 14 web application powered by headless WordPress.",
+    "",
   keywords: [
-    "Next.js 14",
-    "React",
-    "Headless WordPress",
-    "Tailwind CSS",
-    "Server Components",
-    "Server Actions",
-    "Marketing",
-    "SEO",
-    "Digital Agency",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
   ],
   url: "https://kuebs.vercel.app/",
   ogImage: "https://kuebs.vercel.app/og-image.jpg",
@@ -119,7 +119,7 @@ export const footerNav2 = [
     items: [
       {
         title: "Datenschutz",
-        href: "#",
+        href: "/datenschutz",
         external: false,
       },
       {

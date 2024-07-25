@@ -11,36 +11,33 @@ import {
   FormLabel,
   FormMessage,
 } from "../ui/form";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "../ui/select";
+// import {
+//   Select,
+//   SelectContent,
+//   SelectItem,
+//   SelectTrigger,
+//   SelectValue,
+// } from "../ui/select";
 import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
 import { useTransition } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { QuotationFormSchema } from "../../lib/schema";
+import { KontaktFormSchema } from "../../lib/schema";
 import { Spinner } from "../icons/icons";
 import SectionTitle from "../sections/section-title";
 
-type FormInputs = z.infer<typeof QuotationFormSchema>;
+type FormInputs = z.infer<typeof KontaktFormSchema>;
 
-export default function QuotationForm() {
+export default function Kontaktform() {
   const [isPending, startTransition] = useTransition();
 
   const form = useForm<FormInputs>({
-    resolver: zodResolver(QuotationFormSchema),
+    resolver: zodResolver(KontaktFormSchema),
     defaultValues: {
       name: "",
       email: "",
-      phone: "",
-      website: "",
-      service: "",
       message: "",
     },
   });
@@ -64,12 +61,12 @@ export default function QuotationForm() {
   return (
     <div className="relative z-[1] mx-auto max-w-4xl rounded bg-white px-[12%] py-[8%] dark:bg-slate-900">
       <SectionTitle
-        subtitle="You deserve more. We're proven to deliver"
+        subtitle="Lorem Ipsum sit dolor amet."
         sectionClasses="mx-auto max-w-xl text-center mb-12"
         titleClasses="mb-3 text-center"
         subtitleClasses="text-md font-medium"
       >
-        Get Free SEO Analysis
+        Setzen Sie sich mit uns in Verbindung.
       </SectionTitle>
       <Form {...form}>
         <form
@@ -83,7 +80,7 @@ export default function QuotationForm() {
                 name="name"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="dark:text-white">Full Name</FormLabel>
+                    <FormLabel className="dark:text-white">Vor- und Nachname</FormLabel>
                     <FormControl>
                       <Input {...field} />
                     </FormControl>
@@ -98,7 +95,7 @@ export default function QuotationForm() {
                 name="email"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="dark:text-white">Email</FormLabel>
+                    <FormLabel className="dark:text-white">E-Mail</FormLabel>
                     <FormControl>
                       <Input {...field} />
                     </FormControl>
@@ -109,13 +106,13 @@ export default function QuotationForm() {
             </div>
           </div>
           <div className="flex flex-wrap lg:flex-nowrap lg:space-x-8">
-            <div className="mb-6 w-full lg:w-1/2">
+            {/* <div className="mb-6 w-full lg:w-1/2">
               <FormField
                 control={form.control}
                 name="phone"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="dark:text-white">Phone</FormLabel>
+                    <FormLabel className="dark:text-white">Telefon</FormLabel>
                     <FormControl>
                       <Input {...field} />
                     </FormControl>
@@ -123,8 +120,8 @@ export default function QuotationForm() {
                   </FormItem>
                 )}
               />
-            </div>
-            <div className="mb-6 w-full lg:w-1/2">
+            </div> */}
+            {/* <div className="mb-6 w-full lg:w-1/2">
               <FormField
                 control={form.control}
                 name="website"
@@ -138,9 +135,9 @@ export default function QuotationForm() {
                   </FormItem>
                 )}
               />
-            </div>
+            </div> */}
           </div>
-          <div className="mb-6">
+          {/* <div className="mb-6">
             <FormField
               control={form.control}
               name="service"
@@ -168,17 +165,17 @@ export default function QuotationForm() {
                 </FormItem>
               )}
             />
-          </div>
+          </div> */}
           <div className="mb-6">
             <FormField
               control={form.control}
               name="message"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="dark:text-white">Message</FormLabel>
+                  <FormLabel className="dark:text-white">Nachricht</FormLabel>
                   <FormControl>
                     <Textarea
-                      placeholder="How can we help your business grow?"
+                      placeholder="Ihre Nachricht an uns..."
                       rows={6}
                       {...field}
                     />
@@ -193,10 +190,10 @@ export default function QuotationForm() {
             {isPending ? (
               <>
                 <Spinner className="mr-2 h-5 w-5 animate-spin" />
-                <span>Sending</span>
+                <span>Wird gesendet...</span>
               </>
             ) : (
-              <span>Get free quotation</span>
+              <span>Nachricht senden</span>
             )}
           </Button>
         </form>

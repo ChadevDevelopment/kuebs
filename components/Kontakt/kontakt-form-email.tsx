@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { ContactFormSchema } from "../../lib/schema";
+import { KontaktFormSchema } from "../../lib/schema";
 import {
   Html,
   Body,
@@ -14,9 +14,9 @@ import {
 } from "@react-email/components";
 import { siteConfig } from "../../config/site";
 
-type FormInputs = z.infer<typeof ContactFormSchema>;
+type FormInputs = z.infer<typeof KontaktFormSchema>;
 
-export default function ContactFormEmail({ message, email }: FormInputs) {
+export default function KontaktFormEmail({ message, email }: FormInputs) {
   return (
     <Html>
       <Head />

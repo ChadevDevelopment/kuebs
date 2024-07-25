@@ -9,12 +9,12 @@ const Impressum = () => {
              Impressum
             </h2>
 
-            <h4 className="font-small text-lg xl:text-metatitle3 text-base mt-7.5 mb-3.5">
+            <h4 className="font-small text-lg text-blue mt-7.5 mb-3.5">
               Betreiber der Webseite
             </h4>
 
             <p className="pb-5">
-              <a href="" className="hover:text-primary dark:hover:text-primary" target="_blank">
+              <a href="#" className="hover:text-primary dark:hover:text-primary" target="_blank">
                 Lorem ipsum dolor sit amet <br />
                 Lorem ipsum dolor sit amet 00 <br />
                 0000 Lorem ipsum <br />
@@ -45,7 +45,7 @@ const Impressum = () => {
               Alle Texte, Logos und Bilder sind urheberrechtlich geschützt.
             </p>
 
-            <h4 className="font-small text-lg xl:text-metatitle3 text-base mt-9 mb-3.5">
+            <h4 className="font-small text-lg text-blue mt-9 mb-3.5">
               Gesamtkonzept, Grafik und Webdesign
             </h4>
 

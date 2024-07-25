@@ -5,20 +5,20 @@ import IconBox from "../icon-box";
 
 export const iconBoxes = [
   {
-    icon: "/images/icons/icon3.svg",
+    icon: "/images/icons/icon7.svg",
     title: "Beratung, Erstellung und Optimierung der Steuererklärung",
     description: 
       "Wir beraten Sie umfassend, erstellen und optimieren Ihre Steuererklärung, um Ihre Steuerlast zu minimieren."
   },
   {
-    icon: "/images/icons/icon3.svg",
+    icon: "/images/icons/icon8.svg",
     title: "Sämtliche Versicherungsangelegenheiten",
     description: 
       "Wir übernehmen die Verwaltung und Optimierung Ihrer Versicherungen, um den bestmöglichen Schutz zu gewährleisten."
   },
   {
-    icon: "/images/icons/icon3.svg",
-    title: "Arbeitsrecht, Mietrecht und Scheidungen: Rechtsfragen",
+    icon: "/images/icons/icon6.svg",
+    title: "Arbeitsrecht und Mietrecht",
     description: 
       "Wir beraten Sie in Fragen des Arbeitsrechts, Mietrechts und bei Scheidungen, um Ihre rechtlichen Interessen zu schützen."
   },
@@ -29,7 +29,7 @@ export const iconBoxes = [
       "Wir kümmern uns um alle administrativen Aufgaben, damit Sie sich auf Ihr Kerngeschäft konzentrieren können."
   },
   {
-    icon: "/images/icons/icon3.svg",
+    icon: "/images/icons/icon5.svg",
     title: "Betreibungs- und Konkursverfahren",
     description: 
       "Wir unterstützen Sie professionell bei Betreibungs- und Konkursverfahren, um Ihre Interessen umfassend zu wahren."

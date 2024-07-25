@@ -1,9 +1,10 @@
 "use client";
+
 import { motion } from "framer-motion";
 import Image from "next/image";
-import QuotationForm from "../forms/quotation-form";
+import Kontaktform from "./kontaktform";
 
-const SectionQuotation = () => {
+const Kontakt = () => {
   return (
     <section className="relative bg-white py-16 before:absolute before:inset-0 before:z-[1] before:bg-foreground/75 lg:py-28">
       <Image
@@ -21,11 +22,11 @@ const SectionQuotation = () => {
             delay: 0.5,
           }}
         >
-          <QuotationForm />
+          <Kontaktform />
         </motion.div>
       </div>
     </section>
   );
 };
 
-export default SectionQuotation;
+export default Kontakt;

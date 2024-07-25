@@ -2,25 +2,25 @@
 
 import { z } from "zod";
 import { Resend } from "resend";
-import ContactFormEmail from "../../components/emails/contact-form-email";
-import { ContactFormSchema } from "../../lib/schema";
+import { KontaktFormSchema } from "../../lib/schema";
 import { getErrorMessage } from "../../lib/utils";
 import { renderAsync } from "@react-email/render";
+import KontaktFormEmail from "../../components/Kontakt/kontakt-form-email";
 
-type FormInputs = z.infer<typeof ContactFormSchema>;
+type FormInputs = z.infer<typeof KontaktFormSchema>;
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormInputs) => {
-  const result = ContactFormSchema.safeParse(formData);
+  const result = KontaktFormSchema.safeParse(formData);
   let data;
 
   if (result.success) {
     const { name, email, message } = result.data;
     const html = await renderAsync(
-      ContactFormEmail({
+      KontaktFormEmail({
         name,
         email,
-        message,
+        message
       }) as React.ReactElement,
     );
 
@@ -33,11 +33,11 @@ export const sendEmail = async (formData: FormInputs) => {
         subject: "Message from contact form",
         reply_to: email,
         html: html,
-        // react: ContactFormEmail({
-        //   name: name,
-        //   email: email,
-        //   message: message,
-        // }),
+        react: KontaktFormEmail({
+          name: name,
+          email: email,
+          message: message
+        }),
       });
       return { success: true, data };
     } catch (error: unknown) {

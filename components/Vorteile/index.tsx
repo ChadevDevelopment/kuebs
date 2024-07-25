@@ -9,7 +9,7 @@ export const iconBoxes = [
     icon: "/images/icons/icon2.svg",
     title: "Wir handeln proaktiv",
     description:
-      "Wir informieren Sie proaktiv und frühzeitig über Herausforderungen, damit Sie optimal auf alle Entwicklungen reagieren können.",
+      "Wir informieren Sie proaktiv und frühzeitig über bevorstehende Herausforderungen, damit Sie optimal auf alle Entwicklungen reagieren können.",
   },
   {
     icon: "/images/icons/icon2.svg",

@@ -28,7 +28,7 @@ export function MobileNav({
 
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
-      {triggerIcon === "default" && (
+      {/* {triggerIcon === "default" && (
         <SheetTrigger asChild>
           <button className="group flex h-8 w-8 items-center justify-center rounded-full border transition-colors hover:border-transparent hover:bg-primary focus:border-transparent focus:bg-primary dark:border-transparent dark:bg-white/[.15] dark:hover:bg-primary lg:ml-5 lg:hidden">
             <svg
@@ -44,7 +44,7 @@ export function MobileNav({
             <span className="sr-only">Toggle Menu</span>
           </button>
         </SheetTrigger>
-      )}
+      )} */}
 
       {triggerIcon === "style-2" && (
         <SheetTrigger asChild>

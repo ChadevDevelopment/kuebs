@@ -2,28 +2,25 @@
 
 import { z } from "zod";
 import { Resend } from "resend";
-import QuotationFormEmail from "../../components/emails/quotation-form-email";
-import { QuotationFormSchema } from "../../lib/schema";
+import QuotationKontaktform from "../../components/Kontakt/quotation-kontakt-form";
+import { KontaktFormSchema } from "../../lib/schema";
 import { getErrorMessage } from "../../lib/utils";
 import { renderAsync } from "@react-email/render";
 
-type FormInputs = z.infer<typeof QuotationFormSchema>;
+type FormInputs = z.infer<typeof KontaktFormSchema>;
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendQuotationEmail = async (formData: FormInputs) => {
-  const result = QuotationFormSchema.safeParse(formData);
+  const result = KontaktFormSchema.safeParse(formData);
   let data;
 
   if (result.success) {
-    const { name, email, phone, website, service, message } = result.data;
+    const { name, email, message } = result.data;
 
     const html = await renderAsync(
-      QuotationFormEmail({
+      QuotationKontaktform({
         name,
         email,
-        phone,
-        website,
-        service,
         message,
       }) as React.ReactElement,
     );
@@ -37,14 +34,11 @@ export const sendQuotationEmail = async (formData: FormInputs) => {
         subject: "Message from quotation form",
         reply_to: email,
         html: html,
-        // react: QuotationFormEmail({
-        //   name,
-        //   email,
-        //   phone,
-        //   website,
-        //   service,
-        //   message,
-        // }),
+        react: QuotationKontaktform({
+          name,
+          email,
+          message,
+        }),
       });
 
       return { success: true, data };

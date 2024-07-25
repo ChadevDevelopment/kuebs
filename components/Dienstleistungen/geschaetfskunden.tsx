@@ -17,7 +17,7 @@ export const iconBoxes = [
       "Wir kümmern uns um die Personaladministration, inklusive Einstellung und Verwaltung Ihrer Mitarbeiter."
   },
   {
-    icon: "/images/icons/icon3.svg",
+    icon: "/images/icons/icon4.svg",
     title: "Lohn- und Vertragsverwaltung",
     description: 
     "Wir erstellen und verwalten Ihre Lohnabrechnungen und Arbeitsverträge effizient und zuverlässig."
@@ -35,7 +35,7 @@ export const iconBoxes = [
       "Wir führen gründliche Revisionsarbeiten durch, um die Korrektheit und Ordnungsmäßigkeit Ihrer Geschäftsunterlagen sicherzustellen."
   },
   {
-    icon: "/images/icons/icon3.svg",
+    icon: "/images/icons/icon5.svg",
     title: "Betreibungs- und Konkursverfahren",
     description: 
       "Wir unterstützen Sie professionell bei Betreibungs- und Konkursverfahren, um Ihre Interessen umfassend und effektiv zu wahren."

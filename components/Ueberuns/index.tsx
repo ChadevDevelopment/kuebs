@@ -11,7 +11,7 @@ import { AspectRatio } from "../ui/aspect-ratio";
 
 const Ueberuns = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-[#EBE4FA]/25 to-muted/25 py-24 dark:bg-slate-900 dark:bg-none lg:py-32">
+    <section className="relative overflow-hidden bg-gradient-to-b from-[#EBE4FA]/25 to-muted/25 pb-15 dark:bg-slate-900 dark:bg-none lg:py-32">
       <div className="container">
         <div className="flex flex-wrap items-center justify-between lg:flex-nowrap">
           <div className="relative z-[1] mb-10 lg:w-1/2">

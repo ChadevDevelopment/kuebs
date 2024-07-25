@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { QuotationFormSchema } from "../../lib/schema";
+import { KontaktFormSchema } from "../../lib/schema";
 import {
   Html,
   Body,
@@ -14,15 +14,12 @@ import {
 } from "@react-email/components";
 import { siteConfig } from "../../config/site";
 
-type FormInputs = z.infer<typeof QuotationFormSchema>;
+type FormInputs = z.infer<typeof KontaktFormSchema>;
 
-export default function QuotationFormEmail({
+export default function QuotationKontaktform ({
   name,
-  phone,
-  website,
-  service,
-  message,
   email,
+  message
 }: FormInputs) {
   return (
     <Html>
@@ -43,21 +40,6 @@ export default function QuotationFormEmail({
               {email && (
                 <Text style={{ marginTop: -5 }}>
                   <b>Email: </b> {email}
-                </Text>
-              )}
-              {website && (
-                <Text style={{ marginTop: -5 }}>
-                  <b>Website: </b> {website}
-                </Text>
-              )}
-              {phone && (
-                <Text style={{ marginTop: -5 }}>
-                  <b>Phone: </b> {phone}
-                </Text>
-              )}
-              {service && (
-                <Text style={{ marginTop: -5 }}>
-                  <b>Service: </b> {service}
                 </Text>
               )}
               {message && (

@@ -82,24 +82,24 @@ const FAQ = () => {
                 delay: 0.5,
               }}
             >
-              <Image
+              {/* <Image
                 src="/images/faq/faq.jpg"
                 alt="faq"
                 width={526}
                 height={531}
-                className="inline-block items-center hidden md:block rounded-xl ml-20"
-              />
-              {/* <div className="mt-12 md:flex md:space-x-8 lg:justify-end"> */}
-                {/* <Image
+                className="mb-8 inline-block rounded-xl"
+              /> */}
+              <div className="mt-12 md:flex md:space-x-8 lg:justify-end">
+                <Image
                   src="/images/faq/faq.jpg"
                   alt="benefits"
                   width={320}
                   height={320}
-                  className="mb-8 inline-block rounded-xl"
-                /> */}
-                {/* <div className="relative mb-8 max-w-[13.125rem] self-end rounded-xl bg-white bg-gradient-to-b from-secondary/70 to-quaternary/70 p-8 shadow-lg">
+                  className="mb-8 inline-block rounded-xl hidden md:block"
+                />
+                <div className="relative mb-8 max-w-[13.125rem] self-end rounded-xl bg-white bg-gradient-to-b from-secondary/70 to-quaternary/70 p-8 shadow-lg">
                   <span className="mb-4 block text-base font-semibold text-white">
-                    Individual Investors
+                    Sed do eiusmod tempor.
                   </span>
                   <span className="mb-4 block text-3xl font-bold text-white">
                     7,000+
@@ -108,8 +108,8 @@ const FAQ = () => {
                     Sed do eiusmod tempor.
                   </span>
                 </div>
-              </div> */}
-              {/* <div className="relative">
+              </div>
+              <div className="relative">
                 <div className="relative mx-auto max-w-xs self-start rounded-xl bg-white bg-gradient-to-l from-primary/70 to-tertiary/70 p-8 shadow-lg">
                   <div className="absolute right-8 top-8 rounded-full bg-white p-3">
                     <svg
@@ -126,7 +126,7 @@ const FAQ = () => {
 
                   <div className="text-left">
                     <span className="mb-4 block text-base font-semibold text-white">
-                      Invested to date
+                      Sed do eiusmod tempor.
                     </span>
                     <span className="mb-4 block text-3xl font-bold text-white">
                       $3.7B
@@ -136,7 +136,7 @@ const FAQ = () => {
                     </span>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </motion.div>
           </div>
         </div>
