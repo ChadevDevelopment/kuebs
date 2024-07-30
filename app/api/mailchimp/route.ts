@@ -1,7 +1,16 @@
 import { z } from "zod";
+import { connectToDatabase } from "../../actions/mongodb/mongodb";
+import Newsletter from "../../../models/newsletter.model";
 
 export async function POST(req: Request) {
   const { email, name } = await req.json();
+
+  // Connect to MongoDB
+  await connectToDatabase();
+
+  // Save the contact message in MongoDB
+  const newMessage = new Newsletter({ email });
+  await newMessage.save();
 
   try {
     const AUDIENCE_ID = process.env.MAILCHIMP_AUDIENCE_ID;

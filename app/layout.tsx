@@ -5,6 +5,7 @@ import { ThemeProvider } from "./provider/ThemeProvider";
 import { Toaster } from "sonner";
 import { siteConfig } from "../config/site";
 import BackToTop from "../components/ScrollToTop/back-to-top";
+// import WhatsAppWidget from "../components/Whatsapp";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -59,6 +60,7 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
+        {/* <WhatsAppWidget /> */}
         </ThemeProvider>
         <Toaster richColors />
         <BackToTop />

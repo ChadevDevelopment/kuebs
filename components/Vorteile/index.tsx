@@ -59,7 +59,7 @@ const fadeInAnimationVariants = {
 
 const Vorteile = ({ noTitle }: { noTitle?: boolean }) => {
   return (
-    <section className="pb-10 pt-16 lg:pb-20 bg-gradient-to-b from-[#EBE4FA]/25 to-muted/25 py-24 dark:bg-slate-900 dark:bg-none lg:pt-24">
+    <section className="pb-10 pt-16 lg:pb-20 py-24 dark:bg-slate-900 dark:bg-none lg:pt-24">
       <div className="container">
         {!noTitle && (
           <SectionTitle

@@ -23,36 +23,6 @@ export const siteConfig = {
 };
 
 export const mainNav = [
-// {
-//   title: "Pages",
-//   items: [
-//     {
-//       title: "About",
-//       href: "/about",
-//       items: [],
-//     },
-//     {
-//       title: "Services",
-//       href: "/services",
-//       items: [],
-//     },
-//     {
-//       title: "Pricing",
-//       href: "/pricing",
-//       items: [],
-//     },
-//     {
-//       title: "Kontakt",
-//       href: "/kontakt",
-//       items: [],
-//     },
-//     {
-//       title: "404",
-//       href: "/page-404",
-//       items: [],
-//     },
-//   ],
-// }
   {
     title: "Über uns",
     href: "/ueberuns"
@@ -60,6 +30,7 @@ export const mainNav = [
   
   {
     title: "Dienstleistungen",
+    href: "/dienstleistungen",
     items: [
       {
         title: "Geschäftskunden",
@@ -71,11 +42,6 @@ export const mainNav = [
         href: "/privatkunden",
         items: [],
       },
-      // {
-      //   title: "Home Consulting",
-      //   href: "/consulting",
-      //   items: [],
-      // },
     ]
   },
   {
