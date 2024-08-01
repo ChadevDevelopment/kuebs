@@ -23,13 +23,13 @@ export const iconBoxes = [
     "Wir erstellen und verwalten Ihre Lohnabrechnungen und Arbeitsverträge effizient und zuverlässig."
   },
   {
-    icon: "/images/icons/icon3.svg",
+    icon: "/images/icons/icon12.svg",
     title: "MWST-Beratung",
     description: 
       "Unsere Experten beraten Sie umfassend zu allen Fragen rund um die Mehrwertsteuer und unterstützen bei der Einhaltung der Vorschriften."
   },
   {
-    icon: "/images/icons/icon3.svg",
+    icon: "/images/icons/icon10.svg",
     title: "Revisionsarbeiten",
     description: 
       "Wir führen gründliche Revisionsarbeiten durch, um die Korrektheit und Ordnungsmäßigkeit Ihrer Geschäftsunterlagen sicherzustellen."
@@ -47,16 +47,16 @@ export const iconBoxes = [
       "Unsere Beratung hilft Ihnen, strategische Entscheidungen zu treffen und Ihr Unternehmen erfolgreich zu führen."
   },
   {
-    icon: "/images/icons/icon3.svg",
+    icon: "/images/icons/icon9.svg",
     title: "Gründung von Gesellschaften",
     description: 
       "Wir begleiten Sie bei der Gründung von Gesellschaften und sorgen für einen reibungslosen Ablauf des Prozesses."
   },
   {
-    icon: "/images/icons/icon3.svg",
+    icon: "/images/icons/icon11.svg",
     title: "Liquidations- und Konkursverfahren",
     description: 
-      "Wir bieten umfassende Unterstützung bei Liquidations- und Konkursverfahren, um eine geordnete Abwicklung zu gewährleisten."
+      "Wir bieten umfassende Unterstützung bei Liquidations- und Konkursverfahren, um eine Abwicklung zu gewährleisten."
   }
 ];
 

@@ -1,6 +1,4 @@
-import { Button } from "../ui/button";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
-import { AspectRatio } from "../ui/aspect-ratio";
 import Image from "next/image";
 import Link from "next/link";
 

@@ -5,8 +5,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
-  faXTwitter,
-  faYoutube,
+  faXTwitter
 } from "@fortawesome/free-brands-svg-icons";
 import { ScrollArea } from "../Search/scroll-area";
 import { Sheet, SheetContent, SheetTrigger } from "../Search/sheet";

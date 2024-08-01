@@ -9,10 +9,10 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../FAQ/accordion";
-import { ScrollArea } from "../Search/scroll-area";
-import { Sheet, SheetContent, SheetTrigger } from "../Search/sheet";
-import Image from "next/image";
+} from "../ui/accordion"
+import { ScrollArea } from "../ui/scroll-area";
+import SiteLogo from "../layout/site-logo";
+import { Sheet, SheetContent, SheetTrigger } from "../../components/ui/sheet";
 
 interface MobileNavProps {
   mainNavItems?: MainNavItem[];
@@ -69,12 +69,11 @@ export function MobileNav({
             className="mr-12 block shrink-0"
             onClick={() => setIsOpen(false)}
           >
-            <Image
-              src="/images/logo/logo.svg"
-              alt="logo"
+            <SiteLogo
               width={96}
               height={30}
-              className="dark:hidden hidden dark:block"
+              lightClasses="dark:hidden"
+              darkClasses="hidden dark:block"
             />
           </Link>
         </div>

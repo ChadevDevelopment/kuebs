@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-// import SectionPageTitle from "../../../components/sections/section-page-title";
-import Kontaktform from "../../../components/Kontakt/kontaktform";
+import Kontakt from "../../../components/Kontakt";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
@@ -15,7 +14,7 @@ export default function KontaktPage() {
         {/* <SectionPageTitle subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr.">
           Kontakt
         </SectionPageTitle> */}
-        <Kontaktform/>
+        <Kontakt />
       </main>
     </>
   );
